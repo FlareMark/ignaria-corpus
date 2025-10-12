@@ -1,43 +1,426 @@
-# Ignaria Corpus - Canonical List
-# This file serves as the authoritative record of all texts in the corpus
-
 corpus:
-  name: "Ignaria Corpus"
-  version: "1.0.0"
-  description: "A curated collection of classical philosophical and theological texts"
-  last_updated: "2024-01-01"
-
+  name: Ignaria Corpus
+  version: 2.0.0
+  description: A curated collection of classical Christian theological texts including
+    the complete Early Church Fathers collection
+  last_updated: '2025-10-12'
 texts:
-  - id: "augustine-confessions"
-    title: "Confessions"
-    author: "Saint Augustine of Hippo"
-    original_author: "Aurelius Augustinus"
-    language: "Latin"
-    period: "Late Antiquity"
-    genre: "Autobiographical Theology"
-    file: "sources/augustine-confessions.txt"
-    metadata: "sources/augustine-confessions.meta.yaml"
-    status: "active"
-    added: "2024-01-01"
-
-  - id: "aquinas-summa"
-    title: "Summa Theologica"
-    author: "Saint Thomas Aquinas"
-    original_author: "Thomas Aquinas"
-    language: "Latin"
-    period: "Medieval"
-    genre: "Systematic Theology"
-    file: "sources/aquinas-summa.txt"
-    metadata: "sources/aquinas-summa.meta.yaml"
-    status: "active"
-    added: "2024-01-01"
-
-# Categories for organization
+- id: augustine-confessions
+  title: Confessions
+  author: Saint Augustine of Hippo
+  original_author: Aurelius Augustinus
+  language: Latin
+  period: Late Antiquity
+  genre: Autobiographical Theology
+  file: sources/augustine-confessions.txt
+  metadata: sources/augustine-confessions.meta.yaml
+  status: active
+  added: '2024-01-01'
+- id: aquinas-summa
+  title: Summa Theologica
+  author: Saint Thomas Aquinas
+  original_author: Thomas Aquinas
+  language: Latin
+  period: Medieval
+  genre: Systematic Theology
+  file: sources/aquinas-summa.txt
+  metadata: sources/aquinas-summa.meta.yaml
+  status: active
+  added: '2024-01-01'
+- id: anf-01
+  title: Ante-Nicene Fathers, Vol. 1
+  author: Various Early Church Fathers
+  period: Ante-Nicene Period
+  genre: Patristic Collection
+  file: sources/ANF-01.txt
+  metadata: sources/ANF-01.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: anf-02
+  title: Ante-Nicene Fathers, Vol. 2
+  author: Various Early Church Fathers
+  period: Ante-Nicene Period
+  genre: Patristic Collection
+  file: sources/ANF-02.txt
+  metadata: sources/ANF-02.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: anf-03
+  title: Ante-Nicene Fathers, Vol. 3
+  author: Various Early Church Fathers
+  period: Ante-Nicene Period
+  genre: Patristic Collection
+  file: sources/ANF-03.txt
+  metadata: sources/ANF-03.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: anf-04
+  title: Ante-Nicene Fathers, Vol. 4
+  author: Various Early Church Fathers
+  period: Ante-Nicene Period
+  genre: Patristic Collection
+  file: sources/ANF-04.txt
+  metadata: sources/ANF-04.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: anf-05
+  title: Ante-Nicene Fathers, Vol. 5
+  author: Various Early Church Fathers
+  period: Ante-Nicene Period
+  genre: Patristic Collection
+  file: sources/ANF-05.txt
+  metadata: sources/ANF-05.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: anf-06
+  title: Ante-Nicene Fathers, Vol. 6
+  author: Various Early Church Fathers
+  period: Ante-Nicene Period
+  genre: Patristic Collection
+  file: sources/ANF-06.txt
+  metadata: sources/ANF-06.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: anf-07
+  title: Ante-Nicene Fathers, Vol. 7
+  author: Various Early Church Fathers
+  period: Ante-Nicene Period
+  genre: Patristic Collection
+  file: sources/ANF-07.txt
+  metadata: sources/ANF-07.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: anf-08
+  title: Ante-Nicene Fathers, Vol. 8
+  author: Various Early Church Fathers
+  period: Ante-Nicene Period
+  genre: Patristic Collection
+  file: sources/ANF-08.txt
+  metadata: sources/ANF-08.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: anf-09
+  title: Ante-Nicene Fathers, Vol. 9
+  author: Various Early Church Fathers
+  period: Ante-Nicene Period
+  genre: Patristic Collection
+  file: sources/ANF-09.txt
+  metadata: sources/ANF-09.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf1-01
+  title: Nicene and Post-Nicene Fathers, Series I, Vol. 1
+  author: Augustine of Hippo
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF1-01.txt
+  metadata: sources/NPNF1-01.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf1-02
+  title: Nicene and Post-Nicene Fathers, Series I, Vol. 2
+  author: Augustine of Hippo
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF1-02.txt
+  metadata: sources/NPNF1-02.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf1-03
+  title: Nicene and Post-Nicene Fathers, Series I, Vol. 3
+  author: Augustine of Hippo
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF1-03.txt
+  metadata: sources/NPNF1-03.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf1-04
+  title: Nicene and Post-Nicene Fathers, Series I, Vol. 4
+  author: Augustine of Hippo
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF1-04.txt
+  metadata: sources/NPNF1-04.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf1-05
+  title: Nicene and Post-Nicene Fathers, Series I, Vol. 5
+  author: Augustine of Hippo
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF1-05.txt
+  metadata: sources/NPNF1-05.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf1-06
+  title: Nicene and Post-Nicene Fathers, Series I, Vol. 6
+  author: Augustine of Hippo
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF1-06.txt
+  metadata: sources/NPNF1-06.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf1-07
+  title: Nicene and Post-Nicene Fathers, Series I, Vol. 7
+  author: Augustine of Hippo
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF1-07.txt
+  metadata: sources/NPNF1-07.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf1-08
+  title: Nicene and Post-Nicene Fathers, Series I, Vol. 8
+  author: Augustine of Hippo
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF1-08.txt
+  metadata: sources/NPNF1-08.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf1-09
+  title: Nicene and Post-Nicene Fathers, Series I, Vol. 9
+  author: John Chrysostom
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF1-09.txt
+  metadata: sources/NPNF1-09.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf1-10
+  title: Nicene and Post-Nicene Fathers, Series I, Vol. 10
+  author: John Chrysostom
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF1-10.txt
+  metadata: sources/NPNF1-10.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf1-11
+  title: Nicene and Post-Nicene Fathers, Series I, Vol. 11
+  author: John Chrysostom
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF1-11.txt
+  metadata: sources/NPNF1-11.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf1-12
+  title: Nicene and Post-Nicene Fathers, Series I, Vol. 12
+  author: John Chrysostom
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF1-12.txt
+  metadata: sources/NPNF1-12.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf1-13
+  title: Nicene and Post-Nicene Fathers, Series I, Vol. 13
+  author: John Chrysostom
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF1-13.txt
+  metadata: sources/NPNF1-13.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf1-14
+  title: Nicene and Post-Nicene Fathers, Series I, Vol. 14
+  author: John Chrysostom
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF1-14.txt
+  metadata: sources/NPNF1-14.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf2-01
+  title: Nicene and Post-Nicene Fathers, Series II, Vol. 1
+  author: Various Church Fathers
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF2-01.txt
+  metadata: sources/NPNF2-01.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf2-02
+  title: Nicene and Post-Nicene Fathers, Series II, Vol. 2
+  author: Various Church Fathers
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF2-02.txt
+  metadata: sources/NPNF2-02.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf2-03
+  title: Nicene and Post-Nicene Fathers, Series II, Vol. 3
+  author: Various Church Fathers
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF2-03.txt
+  metadata: sources/NPNF2-03.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf2-04
+  title: Nicene and Post-Nicene Fathers, Series II, Vol. 4
+  author: Various Church Fathers
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF2-04.txt
+  metadata: sources/NPNF2-04.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf2-05
+  title: Nicene and Post-Nicene Fathers, Series II, Vol. 5
+  author: Various Church Fathers
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF2-05.txt
+  metadata: sources/NPNF2-05.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf2-06
+  title: Nicene and Post-Nicene Fathers, Series II, Vol. 6
+  author: Various Church Fathers
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF2-06.txt
+  metadata: sources/NPNF2-06.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf2-07
+  title: Nicene and Post-Nicene Fathers, Series II, Vol. 7
+  author: Various Church Fathers
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF2-07.txt
+  metadata: sources/NPNF2-07.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf2-08
+  title: Nicene and Post-Nicene Fathers, Series II, Vol. 8
+  author: Various Church Fathers
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF2-08.txt
+  metadata: sources/NPNF2-08.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf2-09
+  title: Nicene and Post-Nicene Fathers, Series II, Vol. 9
+  author: Various Church Fathers
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF2-09.txt
+  metadata: sources/NPNF2-09.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf2-10
+  title: Nicene and Post-Nicene Fathers, Series II, Vol. 10
+  author: Various Church Fathers
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF2-10.txt
+  metadata: sources/NPNF2-10.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf2-11
+  title: Nicene and Post-Nicene Fathers, Series II, Vol. 11
+  author: Various Church Fathers
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF2-11.txt
+  metadata: sources/NPNF2-11.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf2-12
+  title: Nicene and Post-Nicene Fathers, Series II, Vol. 12
+  author: Various Church Fathers
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF2-12.txt
+  metadata: sources/NPNF2-12.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf2-13
+  title: Nicene and Post-Nicene Fathers, Series II, Vol. 13
+  author: Various Church Fathers
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF2-13.txt
+  metadata: sources/NPNF2-13.meta.yaml
+  status: active
+  added: '2025-10-12'
+- id: npnf2-14
+  title: Nicene and Post-Nicene Fathers, Series II, Vol. 14
+  author: Various Church Fathers
+  period: Nicene and Post-Nicene Period
+  genre: Patristic Collection
+  file: sources/NPNF2-14.txt
+  metadata: sources/NPNF2-14.meta.yaml
+  status: active
+  added: '2025-10-12'
 categories:
-  patristic:
-    - "augustine-confessions"
+  patristic: []
   scholastic:
-    - "aquinas-summa"
+  - aquinas-summa
   theology:
-    - "augustine-confessions"
-    - "aquinas-summa"
+  - augustine-confessions
+  - aquinas-summa
+  ante-nicene:
+  - anf-01
+  - anf-02
+  - anf-03
+  - anf-04
+  - anf-05
+  - anf-06
+  - anf-07
+  - anf-08
+  - anf-09
+  nicene-post-nicene-1:
+  - npnf1-01
+  - npnf1-02
+  - npnf1-03
+  - npnf1-04
+  - npnf1-05
+  - npnf1-06
+  - npnf1-07
+  - npnf1-08
+  - npnf1-09
+  - npnf1-10
+  - npnf1-11
+  - npnf1-12
+  - npnf1-13
+  - npnf1-14
+  nicene-post-nicene-2:
+  - npnf2-01
+  - npnf2-02
+  - npnf2-03
+  - npnf2-04
+  - npnf2-05
+  - npnf2-06
+  - npnf2-07
+  - npnf2-08
+  - npnf2-09
+  - npnf2-10
+  - npnf2-11
+  - npnf2-12
+  - npnf2-13
+  - npnf2-14
+  augustine:
+  - npnf1-01
+  - npnf1-02
+  - npnf1-03
+  - npnf1-04
+  - npnf1-05
+  - npnf1-06
+  - npnf1-07
+  - npnf1-08
+  - augustine-confessions
+  chrysostom:
+  - npnf1-09
+  - npnf1-10
+  - npnf1-11
+  - npnf1-12
+  - npnf1-13
+  - npnf1-14

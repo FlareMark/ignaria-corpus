@@ -1,0 +1,48 @@
+text_info:
+  id: npnf2-01
+  title: 'Nicene and Post-Nicene Fathers, Series II, Vol. I: Eusebius - Church History,
+    Life of Constantine'
+  authors:
+  - Eusebius of Caesarea
+  series: Nicene and Post-Nicene Fathers, Series II
+  volume: 1
+publication:
+  original_language: Greek and Latin (translated to English)
+  original_date: c. 260-339 AD
+  period: Fourth Century
+  genre: Patristic Theology
+  editors:
+  - Philip Schaff
+  - Henry Wace
+  publication_date: 1890-1900
+content:
+  description: Church History (AD 1-324), Life of Constantine, Oration in Praise of
+    Constantine
+  format: Complete volume with all treatises, letters, and homilies
+  themes:
+  - Early Church theology
+  - Patristic exegesis
+  - Doctrinal development
+  - Church history
+sources:
+  edition: Nicene and Post-Nicene Fathers, Series II, Volume 1
+  source: Christian Classics Ethereal Library (CCEL)
+  source_url: https://www.ccel.org/fathers
+  license: Public domain
+  translation_notes: Historical English translation from 19th century scholarly editions
+technical:
+  encoding: UTF-8
+  format: Plain text
+  line_endings: Unix (LF)
+  created: '2025-10-12'
+  last_modified: '2025-10-12'
+cataloging:
+  ccel_id: npnf2-01
+  series_info: Nicene and Post-Nicene Fathers, Series II, Vol. 1
+  historical_significance: Part of the definitive 19th-century collection of early
+    church writings
+notes:
+- Complete volume from the standard English translation of the Church Fathers
+- Includes scholarly introductions, footnotes, and indices from original editors
+- Public domain - freely available for study and research
+- Part of the comprehensive 38-volume collection of early Christian literature

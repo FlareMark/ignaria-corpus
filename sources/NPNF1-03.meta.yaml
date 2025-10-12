@@ -1,0 +1,46 @@
+text_info:
+  id: npnf1-03
+  title: 'Nicene and Post-Nicene Fathers, Series I, Vol. III: Augustine - On the Holy
+    Trinity, Doctrinal and Moral Treatises'
+  authors:
+  - Augustine of Hippo
+  series: Nicene and Post-Nicene Fathers, Series I
+  volume: 3
+publication:
+  original_language: Greek and Latin (translated to English)
+  original_date: 354-430 AD
+  period: Late Fourth/Early Fifth Century
+  genre: Patristic Theology
+  editors:
+  - Philip Schaff
+  publication_date: 1886-1889
+content:
+  description: On the Holy Trinity and various doctrinal and ethical treatises
+  format: Complete volume with all treatises, letters, and homilies
+  themes:
+  - Early Church theology
+  - Patristic exegesis
+  - Doctrinal development
+  - Church history
+sources:
+  edition: Nicene and Post-Nicene Fathers, Series I, Volume 3
+  source: Christian Classics Ethereal Library (CCEL)
+  source_url: https://www.ccel.org/fathers
+  license: Public domain
+  translation_notes: Historical English translation from 19th century scholarly editions
+technical:
+  encoding: UTF-8
+  format: Plain text
+  line_endings: Unix (LF)
+  created: '2025-10-12'
+  last_modified: '2025-10-12'
+cataloging:
+  ccel_id: npnf1-03
+  series_info: Nicene and Post-Nicene Fathers, Series I, Vol. 3
+  historical_significance: Part of the definitive 19th-century collection of early
+    church writings
+notes:
+- Complete volume from the standard English translation of the Church Fathers
+- Includes scholarly introductions, footnotes, and indices from original editors
+- Public domain - freely available for study and research
+- Part of the comprehensive 38-volume collection of early Christian literature

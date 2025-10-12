@@ -1,0 +1,49 @@
+text_info:
+  id: anf-05
+  title: 'Ante-Nicene Fathers, Vol. V: The Fathers of the Third Century'
+  authors:
+  - Hippolytus
+  - Cyprian
+  - Caius
+  - Novatian
+  series: Ante-Nicene Fathers
+  volume: 5
+publication:
+  original_language: Greek and Latin (translated to English)
+  original_date: c. 170-258 AD
+  period: Third Century
+  genre: Patristic Theology
+  editors:
+  - Alexander Roberts
+  - James Donaldson
+  publication_date: 1867-1873
+content:
+  description: Hippolytus, Cyprian of Carthage, and other third-century writers
+  format: Complete volume with all treatises, letters, and homilies
+  themes:
+  - Early Church theology
+  - Patristic exegesis
+  - Doctrinal development
+  - Church history
+sources:
+  edition: Ante-Nicene Fathers, Volume 5
+  source: Christian Classics Ethereal Library (CCEL)
+  source_url: https://www.ccel.org/fathers
+  license: Public domain
+  translation_notes: Historical English translation from 19th century scholarly editions
+technical:
+  encoding: UTF-8
+  format: Plain text
+  line_endings: Unix (LF)
+  created: '2025-10-12'
+  last_modified: '2025-10-12'
+cataloging:
+  ccel_id: anf-05
+  series_info: Ante-Nicene Fathers, Vol. 5
+  historical_significance: Part of the definitive 19th-century collection of early
+    church writings
+notes:
+- Complete volume from the standard English translation of the Church Fathers
+- Includes scholarly introductions, footnotes, and indices from original editors
+- Public domain - freely available for study and research
+- Part of the comprehensive 38-volume collection of early Christian literature

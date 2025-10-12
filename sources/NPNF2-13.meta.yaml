@@ -1,0 +1,49 @@
+text_info:
+  id: npnf2-13
+  title: 'Nicene and Post-Nicene Fathers, Series II, Vol. XIII: Gregory the Great
+    (Part II), Ephraim Syrus, Aphrahat'
+  authors:
+  - Gregory I
+  - Ephrem the Syrian
+  - Aphrahat
+  series: Nicene and Post-Nicene Fathers, Series II
+  volume: 13
+publication:
+  original_language: Greek and Latin (translated to English)
+  original_date: c. 306-604 AD
+  period: Fourth-Sixth Centuries
+  genre: Patristic Theology
+  editors:
+  - Philip Schaff
+  - Henry Wace
+  publication_date: 1890-1900
+content:
+  description: Gregory's continued works and Syriac fathers
+  format: Complete volume with all treatises, letters, and homilies
+  themes:
+  - Early Church theology
+  - Patristic exegesis
+  - Doctrinal development
+  - Church history
+sources:
+  edition: Nicene and Post-Nicene Fathers, Series II, Volume 13
+  source: Christian Classics Ethereal Library (CCEL)
+  source_url: https://www.ccel.org/fathers
+  license: Public domain
+  translation_notes: Historical English translation from 19th century scholarly editions
+technical:
+  encoding: UTF-8
+  format: Plain text
+  line_endings: Unix (LF)
+  created: '2025-10-12'
+  last_modified: '2025-10-12'
+cataloging:
+  ccel_id: npnf2-13
+  series_info: Nicene and Post-Nicene Fathers, Series II, Vol. 13
+  historical_significance: Part of the definitive 19th-century collection of early
+    church writings
+notes:
+- Complete volume from the standard English translation of the Church Fathers
+- Includes scholarly introductions, footnotes, and indices from original editors
+- Public domain - freely available for study and research
+- Part of the comprehensive 38-volume collection of early Christian literature
