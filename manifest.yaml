@@ -1,0 +1,43 @@
+# Ignaria Corpus - Canonical List
+# This file serves as the authoritative record of all texts in the corpus
+
+corpus:
+  name: "Ignaria Corpus"
+  version: "1.0.0"
+  description: "A curated collection of classical philosophical and theological texts"
+  last_updated: "2024-01-01"
+
+texts:
+  - id: "augustine-confessions"
+    title: "Confessions"
+    author: "Saint Augustine of Hippo"
+    original_author: "Aurelius Augustinus"
+    language: "Latin"
+    period: "Late Antiquity"
+    genre: "Autobiographical Theology"
+    file: "sources/augustine-confessions.txt"
+    metadata: "sources/augustine-confessions.meta.yaml"
+    status: "active"
+    added: "2024-01-01"
+
+  - id: "aquinas-summa"
+    title: "Summa Theologica"
+    author: "Saint Thomas Aquinas"
+    original_author: "Thomas Aquinas"
+    language: "Latin"
+    period: "Medieval"
+    genre: "Systematic Theology"
+    file: "sources/aquinas-summa.txt"
+    metadata: "sources/aquinas-summa.meta.yaml"
+    status: "active"
+    added: "2024-01-01"
+
+# Categories for organization
+categories:
+  patristic:
+    - "augustine-confessions"
+  scholastic:
+    - "aquinas-summa"
+  theology:
+    - "augustine-confessions"
+    - "aquinas-summa"

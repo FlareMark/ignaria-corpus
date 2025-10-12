@@ -1,0 +1,74 @@
+# Dual License
+
+This repository contains two types of content with different licenses:
+
+## 1. Corpus Texts (sources/ directory)
+
+The text files in the `sources/` directory are in the **Public Domain** or have specific licenses noted in their metadata files.
+
+### Public Domain Dedication (CC0 1.0 Universal)
+
+To the extent possible under law, the curators of this corpus have waived all copyright and related or neighboring rights to the public domain texts contained in this corpus. This work is published from: United States.
+
+For the full CC0 1.0 Universal license text, see:
+https://creativecommons.org/publicdomain/zero/1.0/
+
+### Licensed Texts
+
+Some texts may have specific licenses or usage restrictions. These are noted in the individual metadata files (`sources/*.meta.yaml`). Always check the metadata before using a text.
+
+---
+
+## 2. Scripts and Tooling (scripts/ directory, Python code)
+
+The Python scripts and tooling are licensed under the **MIT License**:
+
+MIT License
+
+Copyright (c) 2024 Flaremark
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## 3. Documentation Files (README.md, CHANGELOG.md, etc.)
+
+Documentation files are licensed under **CC BY 4.0** (Creative Commons Attribution 4.0 International).
+
+You are free to share and adapt the documentation with proper attribution.
+
+For the full CC BY 4.0 license text, see:
+https://creativecommons.org/licenses/by/4.0/
+
+---
+
+## Attribution
+
+When using texts from this corpus, please attribute as follows:
+
+```
+Source: Ignaria Corpus (https://github.com/flaremark/ignaria-corpus)
+Text: [Title] by [Author]
+Version: [corpus version]
+```
+
+## Questions
+
+For licensing questions or permissions, please open an issue at:
+https://github.com/flaremark/ignaria-corpus/issues

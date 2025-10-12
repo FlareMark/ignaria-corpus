@@ -1,0 +1,63 @@
+# Metadata for Aquinas' Summa Theologica
+
+text_info:
+  id: "aquinas-summa"
+  title: "Summa Theologica"
+  author: "Saint Thomas Aquinas"
+  original_author: "Thomas Aquinas"
+  latin_title: "Summa Theologiae"
+  
+publication:
+  original_language: "Latin"
+  original_date: "1265-1274 AD"
+  period: "Medieval"
+  genre: "Systematic Theology"
+  
+content:
+  structure: "3 parts, 512 questions, 2,669 articles"
+  parts:
+    - "Part I: God and Creation (119 questions)"
+    - "Part II: Human Nature and Ethics (303 questions)"
+    - "Part III: Christ and Sacraments (90 questions)"
+  total_words: "approximately 1.8 million"
+  themes:
+    - "Systematic theology"
+    - "Scholastic philosophy"
+    - "Christian doctrine"
+    - "Ethics and moral theology"
+    - "Natural theology"
+    - "Aristotelian philosophy"
+  
+sources:
+  edition: "Public domain translation"
+  translator: "Fathers of the English Dominican Province"
+  license: "Public domain"
+  
+technical:
+  encoding: "UTF-8"
+  format: "Plain text"
+  line_endings: "Unix (LF)"
+  created: "2024-01-01"
+  last_modified: "2024-01-01"
+  
+cataloging:
+  isbn: "N/A"
+  library_of_congress: "N/A"
+  worldcat: "N/A"
+  ccel_id: "aquinas-summa"
+  
+philosophical_context:
+  method: "Scholastic disputation"
+  influences:
+    - "Aristotle"
+    - "Augustine"
+    - "Boethius"
+    - "Pseudo-Dionysius"
+  approach: "Sic et Non (Yes and No)"
+  
+notes:
+  - "One of the most influential works of medieval philosophy and theology"
+  - "Synthesizes Aristotelian philosophy with Christian doctrine"
+  - "Foundational text for Catholic theology"
+  - "Sample excerpt provided; full text would require proper licensing"
+  - "Unfinished at the time of Aquinas' death"

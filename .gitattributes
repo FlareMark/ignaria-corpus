@@ -1,0 +1,13 @@
+# Git LFS configuration for large text files
+# Track all text files in sources/ directory with Git LFS
+sources/*.txt filter=lfs diff=lfs merge=lfs -text
+# Ensure consistent line endings
+*.py text eol=lf
+*.md text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.txt text eol=lf
+# Archive files
+*.zip binary
+*.tar.gz binary
+*.tgz binary

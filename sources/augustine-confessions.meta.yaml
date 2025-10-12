@@ -1,0 +1,48 @@
+# Metadata for Augustine's Confessions
+
+text_info:
+  id: "augustine-confessions"
+  title: "Confessions"
+  author: "Saint Augustine of Hippo"
+  original_author: "Aurelius Augustinus"
+  latin_title: "Confessiones"
+  
+publication:
+  original_language: "Latin"
+  original_date: "397-400 AD"
+  period: "Late Antiquity"
+  genre: "Autobiographical Theology"
+  
+content:
+  structure: "13 books"
+  total_words: "approximately 100,000"
+  themes:
+    - "Autobiography"
+    - "Conversion narrative"
+    - "Theological reflection"
+    - "Philosophical inquiry"
+    - "Prayer and praise"
+  
+sources:
+  edition: "Public domain translation"
+  translator: "Various"
+  license: "Public domain"
+  
+technical:
+  encoding: "UTF-8"
+  format: "Plain text"
+  line_endings: "Unix (LF)"
+  created: "2024-01-01"
+  last_modified: "2024-01-01"
+  
+cataloging:
+  isbn: "N/A"
+  library_of_congress: "N/A"
+  worldcat: "N/A"
+  ccel_id: "augustine-confessions"
+  
+notes:
+  - "One of the most influential autobiographical works in Western literature"
+  - "Combines philosophical inquiry with personal narrative"
+  - "Foundation text for Christian theology and philosophy"
+  - "Sample excerpt provided; full text would require proper licensing"

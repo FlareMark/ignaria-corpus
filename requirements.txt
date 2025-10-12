@@ -1,0 +1,13 @@
+# Python dependencies for Ignaria Corpus scripts
+
+# YAML processing
+PyYAML>=6.0.1
+
+# HTTP requests for downloading texts
+requests>=2.31.0
+
+# Command-line argument parsing (built-in, listed for reference)
+# argparse - included in Python standard library
+
+# File path handling (built-in, listed for reference)
+# pathlib - included in Python standard library
