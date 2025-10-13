@@ -5,28 +5,6 @@ corpus:
     the complete Early Church Fathers collection
   last_updated: '2025-10-12'
 texts:
-- id: augustine-confessions
-  title: Confessions
-  author: Saint Augustine of Hippo
-  original_author: Aurelius Augustinus
-  language: Latin
-  period: Late Antiquity
-  genre: Autobiographical Theology
-  file: sources/augustine-confessions.txt
-  metadata: sources/augustine-confessions.meta.yaml
-  status: active
-  added: '2024-01-01'
-- id: aquinas-summa
-  title: Summa Theologica
-  author: Saint Thomas Aquinas
-  original_author: Thomas Aquinas
-  language: Latin
-  period: Medieval
-  genre: Systematic Theology
-  file: sources/aquinas-summa.txt
-  metadata: sources/aquinas-summa.meta.yaml
-  status: active
-  added: '2024-01-01'
 - id: anf-01
   title: Ante-Nicene Fathers, Vol. 1
   author: Various Early Church Fathers
