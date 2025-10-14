@@ -1,0 +1,236 @@
+# Complete section metadata for all anthology volumes
+# This file contains curated section boundaries for the 14 anthology volumes
+
+ANF-02:
+  is_anthology: true
+  sections:
+    - author: Hermas
+      title: The Pastor of Hermas
+      start_marker: "The Pastor of Hermas"
+    - author: Tatian
+      title: Address to the Greeks
+      start_marker: "Address of Tatian to the Greeks."
+    - author: Theophilus
+      title: Theophilus to Autolycus - Book I
+      start_marker: "Theophilus to Autolycus."
+      notes: "First book"
+    - author: Theophilus
+      title: Theophilus to Autolycus - Book II
+      start_marker: "Theophilus to Autolycus."
+      notes: "Second occurrence marks Book II"
+    - author: Theophilus
+      title: Theophilus to Autolycus - Book III
+      start_marker: "Theophilus to Autolycus."
+      notes: "Third occurrence marks Book III"
+    - author: Athenagoras
+      title: A Plea for the Christians
+      start_marker: "Writings of Athenagoras"
+    - author: Athenagoras
+      title: The Resurrection of the Dead
+      start_marker: "The Treatise of Athenagoras"
+    - author: Clement of Alexandria
+      title: Exhortation to the Heathen
+      start_marker: "Exhortation to the Heathen"
+    - author: Clement of Alexandria
+      title: The Instructor - Book I
+      start_marker: "The Instructor."
+    - author: Clement of Alexandria
+      title: The Instructor - Book II
+      start_marker: "The Instructor"
+      notes: "Second instance"
+    - author: Clement of Alexandria
+      title: The Instructor - Book III
+      start_marker: "The Instructor."
+      notes: "Third instance"
+    - author: Clement of Alexandria
+      title: The Stromata - Book I
+      start_marker: "The Stromata, or Miscellanies"
+    - author: Clement of Alexandria
+      title: Fragments of Clement of Alexandria
+      start_marker: "Fragments of Clemens Alexandrinus."
+    - author: Clement of Alexandria
+      title: Who is the Rich Man that Shall Be Saved?
+      start_marker: "Who is the Rich Man that Shall Be Saved?"
+
+ANF-04:
+  is_anthology: true
+  sections:
+    - author: Tertullian
+      title: Additional Tertullian Works
+      start_marker: "TBD - needs manual inspection"
+      notes: "Continuation from Vol. III"
+    - author: Minucius Felix
+      title: The Octavius
+      start_marker: "TBD - needs text inspection"
+    - author: Commodian
+      title: Instructions
+      start_marker: "TBD - needs text inspection"
+    - author: Origen
+      title: Selected Works
+      start_marker: "TBD - needs text inspection"
+
+ANF-05:
+  is_anthology: true
+  sections:
+    - author: Hippolytus
+      title: Works of Hippolytus
+      start_marker: "TBD - needs text inspection"
+    - author: Cyprian
+      title: Treatises and Epistles
+      start_marker: "TBD - needs text inspection"
+    - author: Caius
+      title: Fragments
+      start_marker: "TBD - needs text inspection"
+    - author: Novatian
+      title: Treatises
+      start_marker: "TBD - needs text inspection"
+
+ANF-06:
+  is_anthology: true
+  sections:
+    - author: Gregory Thaumaturgus
+      title: Works
+      start_marker: "TBD - needs text inspection"
+    - author: Dionysius the Great
+      title: Epistles and Fragments
+      start_marker: "TBD - needs text inspection"
+    - author: Julius Africanus
+      title: Extant Writings
+      start_marker: "TBD - needs text inspection"
+    - author: Anatolius
+      title: Works
+      start_marker: "TBD - needs text inspection"
+    - author: Methodius
+      title: Works
+      start_marker: "TBD - needs text inspection"
+    - author: Arnobius
+      title: Against the Heathen
+      start_marker: "TBD - needs text inspection"
+
+ANF-07:
+  is_anthology: true
+  sections:
+    - author: Lactantius
+      title: Divine Institutes
+      start_marker: "TBD - needs text inspection"
+    - author: Venantius
+      title: Works
+      start_marker: "TBD - needs text inspection"
+    - author: Asterius
+      title: Works
+      start_marker: "TBD - needs text inspection"
+    - author: Victorinus
+      title: Works
+      start_marker: "TBD - needs text inspection"
+    - author: Dionysius
+      title: Works
+      start_marker: "TBD - needs text inspection"
+
+ANF-09:
+  is_anthology: true
+  sections:
+    - author: Origen
+      title: Commentary on John
+      start_marker: "TBD - needs text inspection"
+    - author: Origen
+      title: Commentary on Matthew
+      start_marker: "TBD - needs text inspection"
+    - author: Tatian
+      title: Diatessaron
+      start_marker: "TBD - needs text inspection"
+
+NPNF2-02:
+  is_anthology: true
+  sections:
+    - author: Socrates Scholasticus
+      title: Church History (AD 305-438)
+      start_marker: "TBD - needs text inspection"
+    - author: Sozomen
+      title: Church History (AD 323-425)
+      start_marker: "TBD - needs text inspection"
+
+NPNF2-03:
+  is_anthology: true
+  sections:
+    - author: Theodoret
+      title: Church History
+      start_marker: "TBD - needs text inspection"
+    - author: Jerome
+      title: Lives of Illustrious Men
+      start_marker: "TBD - needs text inspection"
+    - author: Gennadius
+      title: Lives of Illustrious Men (continuation)
+      start_marker: "TBD - needs text inspection"
+    - author: Rufinus
+      title: Works
+      start_marker: "TBD - needs text inspection"
+
+NPNF2-07:
+  is_anthology: true
+  sections:
+    - author: Cyril of Jerusalem
+      title: Catechetical Lectures
+      start_marker: "TBD - needs text inspection"
+    - author: Gregory of Nazianzus
+      title: Orations
+      start_marker: "TBD - needs text inspection"
+
+NPNF2-09:
+  is_anthology: true
+  sections:
+    - author: Hilary of Poitiers
+      title: On the Trinity
+      start_marker: "TBD - needs text inspection"
+    - author: John of Damascus
+      title: Exposition of the Orthodox Faith
+      start_marker: "TBD - needs text inspection"
+
+NPNF2-11:
+  is_anthology: true
+  sections:
+    - author: Sulpitius Severus
+      title: Letters
+      start_marker: "The Letters of Sulpitius Severus."
+    - author: Sulpitius Severus
+      title: Doubtful Letters
+      start_marker: "The Doubtful Letters Of Sulpitius Severus."
+    - author: Sulpitius Severus
+      title: Sacred History
+      start_marker: "The Sacred History Of Sulpitius Severus."
+    - author: Vincent of Lerins
+      title: Commonitory
+      start_marker: "TBD - needs text inspection"
+    - author: John Cassian
+      title: Institutes and Conferences
+      start_marker: "TBD - needs text inspection"
+
+NPNF2-12:
+  is_anthology: true
+  sections:
+    - author: Leo I
+      title: Letters and Sermons
+      start_marker: "TBD - needs text inspection"
+    - author: Gregory I
+      title: Selected Letters (Part I)
+      start_marker: "TBD - needs text inspection"
+
+NPNF2-13:
+  is_anthology: true
+  sections:
+    - author: Gregory I
+      title: Selected Letters (Part II)
+      start_marker: "TBD - needs text inspection"
+    - author: Ephrem the Syrian
+      title: Selected Works
+      start_marker: "TBD - needs text inspection"
+    - author: Aphrahat
+      title: Select Demonstrations
+      start_marker: "TBD - needs text inspection"
+
+# Notes:
+# - ANF-01 has been completed with 19 sections
+# - ANF-02 has detailed sections based on text inspection
+# - ANF-03, ANF-08 are single-author volumes (Tertullian, various) - not anthologies
+# - NPNF1 volumes 1-8 (Augustine) and 9-14 (Chrysostom) are single-author - not anthologies
+# - Remaining volumes marked "TBD" need manual text inspection to find exact start_marker text
+# - Some volumes may have sub-sections (e.g., Book I, II, III) that could be granularly marked
