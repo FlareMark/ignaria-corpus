@@ -18,63 +18,139 @@ text_info:
   - author: Clement of Rome
     title: First Epistle to the Corinthians
     start_marker: The First Epistle of Clement to the Corinthians
+    composition_year: 96
+    composition_uncertainty: medium
+    author_region: Western
+    author_location: Rome
   - author: Mathetes
     title: Epistle to Diognetus
     start_marker: The Epistle of Mathetes to Diognetus
+    composition_year: 130
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Unknown
   - author: Polycarp
     title: Epistle to the Philippians
     start_marker: The Epistle of Polycarp to the Philippians
+    composition_year: 120
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Smyrna
   - author: Polycarp
     title: Martyrdom of Polycarp
     start_marker: The Encyclical Epistle of the Church at Smyrna Concerning the Martyrdom
       of the
+    composition_year: 156
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Smyrna
   - author: Ignatius
     title: Epistle to the Ephesians
     start_marker: The Epistle of Ignatius to the Ephesians
+    composition_year: 107
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Antioch
   - author: Ignatius
     title: Epistle to the Magnesians
     start_marker: The Epistle of Ignatius to the Magnesians
+    composition_year: 107
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Antioch
   - author: Ignatius
     title: Epistle to the Trallians
     start_marker: The Epistle of Ignatius to the Trallians
+    composition_year: 107
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Antioch
   - author: Ignatius
     title: Epistle to the Romans
     start_marker: The Epistle of Ignatius to the Romans
+    composition_year: 107
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Antioch
   - author: Ignatius
     title: Epistle to the Philadelphians
     start_marker: The Epistle of Ignatius to the Philadelphians
+    composition_year: 107
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Antioch
   - author: Ignatius
     title: Epistle to the Smyrnaeans
     start_marker: The Epistle of Ignatius to the SmyrnÃ¦ans
+    composition_year: 107
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Antioch
   - author: Ignatius
     title: Epistle to Polycarp
     start_marker: The Epistle of Ignatius to Polycarp
+    composition_year: 107
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Antioch
   - author: Ignatius
     title: Martyrdom of Ignatius
     start_marker: The Martyrdom of Ignatius
+    composition_year: 108
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Rome
   - author: Barnabas
     title: Epistle of Barnabas
     start_marker: The Epistle of Barnabas
+    composition_year: 130
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Alexandria
   - author: Papias
     title: Fragments of Papias
     start_marker: Fragments of Papias
+    composition_year: 120
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Hierapolis
   - author: Justin Martyr
     title: First Apology
     start_marker: The First Apology of Justin
+    composition_year: 155
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Rome
   - author: Justin Martyr
     title: Second Apology
     start_marker: The Second Apology of Justin for the Christians Addressed to the
       Roman Senate
+    composition_year: 157
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Rome
   - author: Justin Martyr
     title: Dialogue with Trypho
     start_marker: Dialogue of Justin, Philosopher and Martyr, with Trypho, a Jew
+    composition_year: 160
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Rome
   - author: Justin Martyr
     title: Fragments on the Resurrection
     start_marker: Fragments of the Lost Work of Justin on the Resurrection
+    composition_year: 160
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Rome
   - author: Justin Martyr
     title: Martyrdom of Justin and Companions
     start_marker: The Martyrdom of the Holy Martyrs Justin, Chariton, Charites, PÃ¦on,
       and
+    composition_year: 165
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Rome
 publication:
   original_language: Greek and Latin (translated to English)
   original_date: c. 30-202 AD

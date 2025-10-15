@@ -244,26 +244,33 @@ technical:
 
 ### Anthology Volumes (NEW in v2.0+)
 
-For multi-author anthology volumes, the metadata includes section markers:
+For multi-author anthology volumes, the metadata includes section markers with temporal and geographic information:
 
 ```yaml
 text_info:
-  id: "anf-02"
-  title: "Ante-Nicene Fathers, Vol. II"
+  id: "anf-01"
+  title: "Ante-Nicene Fathers, Vol. I"
   authors:
-    - Hermas
-    - Tatian
-    - Theophilus
-    - Athenagoras
-    - Clement of Alexandria
+    - Clement of Rome
+    - Ignatius
+    - Polycarp
+    - Justin Martyr
   is_anthology: true
   sections:
-    - author: "Hermas"
-      title: "The Pastor of Hermas"
-      start_marker: "                              The Pastor of Hermas"
-    - author: "Tatian"
-      title: "Address to the Greeks"
-      start_marker: "                         Tatian's Address to the Greeks"
+    - author: "Clement of Rome"
+      title: "First Epistle to the Corinthians"
+      start_marker: "The First Epistle of Clement to the Corinthians"
+      composition_year: 96
+      composition_uncertainty: "medium"  # low/medium/high
+      author_region: "Western"           # Eastern or Western
+      author_location: "Rome"            # Specific city
+    - author: "Ignatius"
+      title: "Epistle to the Ephesians"
+      start_marker: "The Epistle of Ignatius to the Ephesians"
+      composition_year: 107
+      composition_uncertainty: "medium"
+      author_region: "Eastern"
+      author_location: "Antioch"
     # ... more sections
 ```
 
@@ -273,9 +280,17 @@ text_info:
   - `author` (string): Author of this section
   - `title` (string): Work title
   - `start_marker` (string): **Exact text** that marks the beginning of this section
+  - `composition_year` (integer): **Year the work was composed** (e.g., 96, 107, 155)
+  - `composition_uncertainty` (string): Dating confidence - "low", "medium", or "high"
+  - `author_region` (string): Geographic tradition - "Eastern" or "Western"
+  - `author_location` (string): Specific city where work was written or author was based
   - `notes` (string, optional): Additional context
 
-**Purpose:** Enables precise attribution of text chunks to specific authors within anthology volumes, critical for multi-source corroboration in RAG systems.
+**Purpose:** Enables precise attribution of text chunks to specific authors within anthology volumes, plus temporal and regional queries critical for:
+- Chronological queries ("What did 2nd century fathers say about X?")
+- Regional comparisons ("Where do Eastern and Western fathers disagree?")
+- Temporal development tracking ("How did this doctrine evolve from 100-400 AD?")
+- Multi-source corroboration with temporal awareness
 
 ---
 
@@ -530,7 +545,14 @@ def chunk_anthology_volume(corpus_path, text_entry, metadata):
             'content': section_content,
             'text_id': text_entry['id'],
             'volume_title': text_entry['title'],
-            'section_notes': section.get('notes', '')
+            'section_notes': section.get('notes', ''),
+            # NEW: Temporal and geographic metadata
+            'composition_year': section.get('composition_year'),
+            'composition_uncertainty': section.get('composition_uncertainty', 'medium'),
+            'author_region': section.get('author_region'),
+            'author_location': section.get('author_location'),
+            'century': (section['composition_year'] - 1) // 100 + 1 if section.get('composition_year') else None,
+            'era': f"{((section['composition_year'] - 1) // 100 + 1)}{'st' if ((section['composition_year'] - 1) // 100 + 1) == 1 else 'nd' if ((section['composition_year'] - 1) // 100 + 1) == 2 else 'rd' if ((section['composition_year'] - 1) // 100 + 1) == 3 else 'th'} century" if section.get('composition_year') else None
         })
 
     return chunks
@@ -553,11 +575,15 @@ def prepare_corpus_with_sections(corpus_path, manifest):
     return all_chunks
 ```
 
-**Benefits of Anthology Sections:**
+**Benefits of Anthology Sections with Temporal Metadata:**
 1. **Precise Attribution**: Know which Church Father wrote each passage
 2. **Multi-Source Corroboration**: Track when multiple authors address the same topic
 3. **Filtered Search**: Query by specific author within anthology volumes
 4. **Proper Citations**: Generate accurate references with author and work title
+5. **Temporal Queries**: Find passages by century or date range ("2nd century fathers on X")
+6. **Regional Comparisons**: Compare Eastern vs. Western theological traditions
+7. **Chronological Development**: Track how doctrines evolved over time
+8. **Historical Context**: Understand when and where ideas emerged
 
 **Anthology Volumes in Corpus (14 total):**
 - ANF-01, ANF-02, ANF-04, ANF-05, ANF-06, ANF-07, ANF-09
