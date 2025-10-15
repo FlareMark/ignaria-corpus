@@ -8,6 +8,29 @@ text_info:
   - Novatian
   series: Ante-Nicene Fathers
   volume: 5
+  is_anthology: true
+  sections:
+  - author: Hippolytus
+    title: The Refutation of All Heresies
+    start_marker: The Refutation of All Heresies.
+  - author: Hippolytus
+    title: The Extant Works and Fragments of Hippolytus
+    start_marker: The Extant Works and Fragments of Hippolytus
+  - author: Cyprian
+    title: The Epistles of Cyprian
+    start_marker: The Epistles of Cyprian.
+  - author: Cyprian
+    title: The Treatises of Cyprian
+    start_marker: The Treatises of Cyprian.
+  - author: Cyprian
+    title: Treatises Attributed to Cyprian on Questionable Authority
+    start_marker: Treatises Attributed to Cyprian on Questionable Authority.
+  - author: Caius
+    title: Fragments
+    start_marker: Fragments of Caius.
+  - author: Novatian
+    title: Treatises
+    start_marker: '  Novatian'
 publication:
   original_language: Greek and Latin (translated to English)
   original_date: c. 170-258 AD

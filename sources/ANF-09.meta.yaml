@@ -8,6 +8,17 @@ text_info:
   - Various
   series: Ante-Nicene Fathers
   volume: 9
+  is_anthology: true
+  sections:
+  - author: Tatian
+    title: The Diatessaron of Tatian
+    start_marker: '   The Diatessaron of Tatian'
+  - author: Origen
+    title: Origen's Commentary on the Gospel of John
+    start_marker: '   Origen''s Commentary on the Gospel of John.'
+  - author: Origen
+    title: Commentary on Matthew
+    start_marker: '   Commentary on Matthew.'
 publication:
   original_language: Greek and Latin (translated to English)
   original_date: c. 150-254 AD

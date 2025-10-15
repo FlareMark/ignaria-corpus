@@ -8,6 +8,17 @@ text_info:
   - John Cassian
   series: Nicene and Post-Nicene Fathers, Series II
   volume: 11
+  is_anthology: true
+  sections:
+  - author: Sulpitius Severus
+    title: The Works of Sulpitius Severus
+    start_marker: '                        The Works of Sulpitius Severus.'
+  - author: Vincent of Lerins
+    title: The Commonitory
+    start_marker: '                                The COMMONITORY'
+  - author: John Cassian
+    title: The Works of John Cassian
+    start_marker: '                           The Works of John Cassian.'
 publication:
   original_language: Greek and Latin (translated to English)
   original_date: c. 363-435 AD

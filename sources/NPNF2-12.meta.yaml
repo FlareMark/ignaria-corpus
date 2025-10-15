@@ -7,6 +7,15 @@ text_info:
   - Gregory I
   series: Nicene and Post-Nicene Fathers, Series II
   volume: 12
+  is_anthology: true
+  sections:
+  - author: Leo I
+    title: The Letters and Sermons of Leo the Great
+    start_marker: '   LEO THE GREAT'
+    notes: Line 52 - major section marker
+  - author: Gregory I
+    title: Register of the Epistles of Saint Gregory the Great
+    start_marker: '   Register of the Epistles of Saint Gregory the Great.'
 publication:
   original_language: Greek and Latin (translated to English)
   original_date: c. 400-604 AD

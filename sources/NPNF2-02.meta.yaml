@@ -7,6 +7,14 @@ text_info:
   - Sozomen
   series: Nicene and Post-Nicene Fathers, Series II
   volume: 2
+  is_anthology: true
+  sections:
+  - author: Socrates Scholasticus
+    title: Socrates' Ecclesiastical History
+    start_marker: '   III. Socrates'' Ecclesiastical History.'
+  - author: Sozomen
+    title: Memoir of Sozomen
+    start_marker: '   Memoir of Sozomen.'
 publication:
   original_language: Greek and Latin (translated to English)
   original_date: c. 380-450 AD

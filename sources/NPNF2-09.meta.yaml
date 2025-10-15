@@ -7,6 +7,14 @@ text_info:
   - John of Damascus
   series: Nicene and Post-Nicene Fathers, Series II
   volume: 9
+  is_anthology: true
+  sections:
+  - author: Hilary of Poitiers
+    title: St. Hilary of Poitiers
+    start_marker: '   St. Hilary of Poitiers.'
+  - author: John of Damascus
+    title: John of Damascus
+    start_marker: '   John of Damascus.'
 publication:
   original_language: Greek and Latin (translated to English)
   original_date: c. 310-749 AD

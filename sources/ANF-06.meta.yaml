@@ -10,6 +10,26 @@ text_info:
   - Arnobius
   series: Ante-Nicene Fathers
   volume: 6
+  is_anthology: true
+  sections:
+  - author: Gregory Thaumaturgus
+    title: Gregory Thaumaturgus
+    start_marker: '   Gregory Thaumaturgus.'
+  - author: Dionysius the Great
+    title: The Works of Dionysius
+    start_marker: '   The Works of Dionysius.'
+  - author: Julius Africanus
+    title: Julius Africanus
+    start_marker: '   Julius Africanus.'
+  - author: Anatolius
+    title: Anatolius and Minor Writers
+    start_marker: '  Anatolius and Minor Writers'
+  - author: Methodius
+    title: Methodius
+    start_marker: '   Methodius.'
+  - author: Arnobius
+    title: Arnobius
+    start_marker: '  Arnobius'
 publication:
   original_language: Greek and Latin (translated to English)
   original_date: c. 213-330 AD

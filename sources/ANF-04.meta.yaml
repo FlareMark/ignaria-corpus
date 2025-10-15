@@ -8,6 +8,21 @@ text_info:
   - Origen
   series: Ante-Nicene Fathers
   volume: 4
+  is_anthology: true
+  sections:
+  - author: Tertullian
+    title: 'Tertullian: Part Fourth'
+    start_marker: '  Tertullian: Part Fourth'
+    notes: Continuation from Vol. III
+  - author: Minucius Felix
+    title: The Octavius
+    start_marker: '   The Octavius of Minucius Felix.'
+  - author: Commodian
+    title: Instructions
+    start_marker: '   Instructions of Commodianus.'
+  - author: Origen
+    title: Selected Works
+    start_marker: '   Origen De Principiis.'
 publication:
   original_language: Greek and Latin (translated to English)
   original_date: c. 185-254 AD

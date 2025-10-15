@@ -8,6 +8,18 @@ text_info:
   - Aphrahat
   series: Nicene and Post-Nicene Fathers, Series II
   volume: 13
+  is_anthology: true
+  sections:
+  - author: Gregory I
+    title: Selected Epistles of Gregory the Great
+    start_marker: '   Gregory THE GREAT'
+    notes: Line 50 - continuation from volume 12
+  - author: Ephrem the Syrian
+    title: Ephraim Syrus
+    start_marker: '   Ephraim Syrus'
+  - author: Aphrahat
+    title: Aphrahat
+    start_marker: '   Aphrahat.'
 publication:
   original_language: Greek and Latin (translated to English)
   original_date: c. 306-604 AD

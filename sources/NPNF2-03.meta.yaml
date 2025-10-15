@@ -9,6 +9,17 @@ text_info:
   - Rufinus
   series: Nicene and Post-Nicene Fathers, Series II
   volume: 3
+  is_anthology: true
+  sections:
+  - author: Theodoret
+    title: The Ecclesiastical History, Dialogues, and Letters
+    start_marker: '   The ECCLESIASTICAL HISTORY, Dialogues, and Letters'
+  - author: Jerome
+    title: Jerome and Gennadius
+    start_marker: '   Jerome and Gennadius'
+  - author: Rufinus
+    title: Life and Works of Rufinus
+    start_marker: '   Life and Works of Rufinus'
 publication:
   original_language: Greek and Latin (translated to English)
   original_date: c. 345-466 AD

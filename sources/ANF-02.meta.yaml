@@ -9,6 +9,42 @@ text_info:
   - Clement of Alexandria
   series: Ante-Nicene Fathers
   volume: 2
+  is_anthology: true
+  sections:
+  - author: Hermas
+    title: The Pastor of Hermas
+    start_marker: '                              The Pastor of Hermas'
+  - author: Tatian
+    title: Address to the Greeks
+    start_marker: '                         Tatian''s Address to the Greeks'
+  - author: Theophilus
+    title: Theophilus to Autolycus
+    start_marker: Theophilus to Autolycus.
+    notes: First occurrence - Book I
+  - author: Athenagoras
+    title: Writings of Athenagoras
+    start_marker: '                            Writings of Athenagoras'
+  - author: Athenagoras
+    title: The Treatise of Athenagoras on the Resurrection
+    start_marker: The Treatise of Athenagoras
+  - author: Clement of Alexandria
+    title: Clement of Alexandria - Complete Works
+    start_marker: '                             Clement of Alexandria'
+  - author: Clement of Alexandria
+    title: Exhortation to the Heathen
+    start_marker: Exhortation to the Heathen
+  - author: Clement of Alexandria
+    title: The Instructor
+    start_marker: The Instructor.
+  - author: Clement of Alexandria
+    title: The Stromata, or Miscellanies
+    start_marker: The Stromata, or Miscellanies
+  - author: Clement of Alexandria
+    title: Fragments of Clemens Alexandrinus
+    start_marker: Fragments of Clemens Alexandrinus.
+  - author: Clement of Alexandria
+    title: Who is the Rich Man that Shall Be Saved?
+    start_marker: Who is the Rich Man that Shall Be Saved?
 publication:
   original_language: Greek and Latin (translated to English)
   original_date: c. 100-215 AD

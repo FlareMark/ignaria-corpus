@@ -242,6 +242,41 @@ technical:
 - `philosophical_context`: Method, influences
 - `notes`: Additional context
 
+### Anthology Volumes (NEW in v2.0+)
+
+For multi-author anthology volumes, the metadata includes section markers:
+
+```yaml
+text_info:
+  id: "anf-02"
+  title: "Ante-Nicene Fathers, Vol. II"
+  authors:
+    - Hermas
+    - Tatian
+    - Theophilus
+    - Athenagoras
+    - Clement of Alexandria
+  is_anthology: true
+  sections:
+    - author: "Hermas"
+      title: "The Pastor of Hermas"
+      start_marker: "                              The Pastor of Hermas"
+    - author: "Tatian"
+      title: "Address to the Greeks"
+      start_marker: "                         Tatian's Address to the Greeks"
+    # ... more sections
+```
+
+**Key Fields:**
+- `is_anthology` (boolean): Indicates multi-author volume
+- `sections` (array): List of major works within the volume
+  - `author` (string): Author of this section
+  - `title` (string): Work title
+  - `start_marker` (string): **Exact text** that marks the beginning of this section
+  - `notes` (string, optional): Additional context
+
+**Purpose:** Enables precise attribution of text chunks to specific authors within anthology volumes, critical for multi-source corroboration in RAG systems.
+
 ---
 
 ## Validation and Quality Assurance
@@ -442,6 +477,92 @@ def find_by_author(manifest, author_name):
     return results
 ```
 
+### Example 4: Process Anthology Sections (NEW)
+
+```python
+def chunk_anthology_volume(corpus_path, text_entry, metadata):
+    """
+    Split anthology volume into sections by author.
+    Enables precise attribution for RAG systems.
+    """
+    # Load text content
+    text_path = Path(corpus_path) / text_entry['file']
+    with open(text_path, 'r', encoding='utf-8') as f:
+        full_text = f.read()
+
+    # Check if this is an anthology
+    text_info = metadata.get('text_info', {})
+    if not text_info.get('is_anthology'):
+        # Single author - treat as one chunk
+        return [{
+            'author': text_entry['author'],
+            'title': text_entry['title'],
+            'content': full_text,
+            'text_id': text_entry['id']
+        }]
+
+    # Multi-author anthology - split by sections
+    sections = text_info.get('sections', [])
+    chunks = []
+
+    for i, section in enumerate(sections):
+        # Find where this section starts
+        start_marker = section['start_marker']
+        start_pos = full_text.find(start_marker)
+
+        if start_pos == -1:
+            print(f"Warning: start_marker not found for {section['title']}")
+            continue
+
+        # Find where next section starts (or end of file)
+        if i + 1 < len(sections):
+            next_marker = sections[i + 1]['start_marker']
+            end_pos = full_text.find(next_marker)
+        else:
+            end_pos = len(full_text)
+
+        # Extract section content
+        section_content = full_text[start_pos:end_pos]
+
+        chunks.append({
+            'author': section['author'],
+            'title': section['title'],
+            'content': section_content,
+            'text_id': text_entry['id'],
+            'volume_title': text_entry['title'],
+            'section_notes': section.get('notes', '')
+        })
+
+    return chunks
+
+# Usage example
+def prepare_corpus_with_sections(corpus_path, manifest):
+    """Prepare corpus with anthology sections properly split."""
+    all_chunks = []
+
+    for text_entry in get_active_texts(manifest):
+        # Load detailed metadata
+        meta_path = Path(corpus_path) / text_entry['metadata']
+        with open(meta_path, 'r', encoding='utf-8') as f:
+            metadata = yaml.safe_load(f)
+
+        # Get chunks (either one for single-author, or many for anthology)
+        chunks = chunk_anthology_volume(corpus_path, text_entry, metadata)
+        all_chunks.extend(chunks)
+
+    return all_chunks
+```
+
+**Benefits of Anthology Sections:**
+1. **Precise Attribution**: Know which Church Father wrote each passage
+2. **Multi-Source Corroboration**: Track when multiple authors address the same topic
+3. **Filtered Search**: Query by specific author within anthology volumes
+4. **Proper Citations**: Generate accurate references with author and work title
+
+**Anthology Volumes in Corpus (14 total):**
+- ANF-01, ANF-02, ANF-04, ANF-05, ANF-06, ANF-07, ANF-09
+- NPNF2-02, NPNF2-03, NPNF2-07, NPNF2-09, NPNF2-11, NPNF2-12, NPNF2-13
+
 ---
 
 ## Best Practices for AI Systems
@@ -488,15 +609,19 @@ Ignaria Application
 
 Include in retrieved chunks:
 - Text ID
-- Author name
+- Author name (precise attribution for anthology sections)
 - Work title
 - Historical period
 - Genre/category
+- Volume title (for anthology sections)
+- Section notes (if applicable)
 
 This enables:
-- Source attribution
-- Filtering by type/period
+- Precise source attribution (including multi-author volumes)
+- Multi-source corroboration across Church Fathers
+- Filtering by type/period/author
 - Theological context awareness
+- Accurate citations for anthology works
 
 ---
 
@@ -547,9 +672,10 @@ Report via GitHub Issues with details from validation report.
 
 See [CHANGELOG.md](CHANGELOG.md) for detailed version history.
 
-**Current Version:** 1.0.0
-**Last Updated:** 2024-01-01
-**Text Count:** 2 active texts
+**Current Version:** 2.0.0
+**Last Updated:** 2025-10-15
+**Text Count:** 37 active texts (Church Fathers collection)
+**NEW in v2.0:** Anthology section metadata for 14 multi-author volumes (completion in progress)
 
 ---
 

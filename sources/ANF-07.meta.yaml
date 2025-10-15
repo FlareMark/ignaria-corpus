@@ -9,6 +9,15 @@ text_info:
   - Dionysius
   series: Ante-Nicene Fathers
   volume: 7
+  is_anthology: true
+  sections:
+  - author: Lactantius
+    title: Lactantius
+    start_marker: '                                  Lactantius.'
+  - author: Venantius
+    title: Venantius
+    start_marker: Venantius
+    notes: Poem on Easter
 publication:
   original_language: Greek and Latin (translated to English)
   original_date: c. 250-330 AD
