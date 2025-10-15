@@ -13,12 +13,24 @@ text_info:
   - author: Tatian
     title: The Diatessaron of Tatian
     start_marker: '   The Diatessaron of Tatian'
+    composition_year: 170
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Syria
   - author: Origen
     title: Origen's Commentary on the Gospel of John
     start_marker: '   Origen''s Commentary on the Gospel of John.'
+    composition_year: 230
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Caesarea
   - author: Origen
     title: Commentary on Matthew
     start_marker: '   Commentary on Matthew.'
+    composition_year: 245
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Caesarea
 publication:
   original_language: Greek and Latin (translated to English)
   original_date: c. 150-254 AD

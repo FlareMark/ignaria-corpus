@@ -15,21 +15,45 @@ text_info:
   - author: Gregory Thaumaturgus
     title: Gregory Thaumaturgus
     start_marker: '   Gregory Thaumaturgus.'
+    composition_year: 260
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Neocaesarea
   - author: Dionysius the Great
     title: The Works of Dionysius
     start_marker: '   The Works of Dionysius.'
+    composition_year: 255
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Alexandria
   - author: Julius Africanus
     title: Julius Africanus
     start_marker: '   Julius Africanus.'
+    composition_year: 221
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Palestine
   - author: Anatolius
     title: Anatolius and Minor Writers
     start_marker: '  Anatolius and Minor Writers'
+    composition_year: 270
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Laodicea
   - author: Methodius
     title: Methodius
     start_marker: '   Methodius.'
+    composition_year: 290
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Olympus
   - author: Arnobius
     title: Arnobius
     start_marker: '  Arnobius'
+    composition_year: 305
+    composition_uncertainty: low
+    author_region: Western
+    author_location: Sicca
 publication:
   original_language: Greek and Latin (translated to English)
   original_date: c. 213-330 AD

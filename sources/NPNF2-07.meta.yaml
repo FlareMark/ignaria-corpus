@@ -13,9 +13,17 @@ text_info:
     title: Catechetical Lectures
     start_marker: '   GRAND RAPIDS, MICHIGAN'
     notes: First major section after frontmatter
+    composition_year: 348
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Jerusalem
   - author: Gregory of Nazianzus
     title: Select Orations
     start_marker: '   Select Orations'
+    composition_year: 380
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Constantinople
 publication:
   original_language: Greek and Latin (translated to English)
   original_date: c. 313-390 AD

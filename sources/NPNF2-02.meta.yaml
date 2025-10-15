@@ -12,9 +12,17 @@ text_info:
   - author: Socrates Scholasticus
     title: Socrates' Ecclesiastical History
     start_marker: '   III. Socrates'' Ecclesiastical History.'
+    composition_year: 440
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Constantinople
   - author: Sozomen
     title: Memoir of Sozomen
     start_marker: '   Memoir of Sozomen.'
+    composition_year: 443
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Constantinople
 publication:
   original_language: Greek and Latin (translated to English)
   original_date: c. 380-450 AD

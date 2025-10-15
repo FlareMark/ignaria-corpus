@@ -14,15 +14,31 @@ text_info:
     title: 'Tertullian: Part Fourth'
     start_marker: '  Tertullian: Part Fourth'
     notes: Continuation from Vol. III
+    composition_year: 210
+    composition_uncertainty: medium
+    author_region: Western
+    author_location: Carthage
   - author: Minucius Felix
     title: The Octavius
     start_marker: '   The Octavius of Minucius Felix.'
+    composition_year: 200
+    composition_uncertainty: high
+    author_region: Western
+    author_location: Rome
   - author: Commodian
     title: Instructions
     start_marker: '   Instructions of Commodianus.'
+    composition_year: 250
+    composition_uncertainty: high
+    author_region: Western
+    author_location: North Africa
   - author: Origen
     title: Selected Works
     start_marker: '   Origen De Principiis.'
+    composition_year: 225
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Alexandria
 publication:
   original_language: Greek and Latin (translated to English)
   original_date: c. 185-254 AD

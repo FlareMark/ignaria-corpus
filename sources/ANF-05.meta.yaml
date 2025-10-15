@@ -13,24 +13,52 @@ text_info:
   - author: Hippolytus
     title: The Refutation of All Heresies
     start_marker: The Refutation of All Heresies.
+    composition_year: 225
+    composition_uncertainty: medium
+    author_region: Western
+    author_location: Rome
   - author: Hippolytus
     title: The Extant Works and Fragments of Hippolytus
     start_marker: The Extant Works and Fragments of Hippolytus
+    composition_year: 220
+    composition_uncertainty: high
+    author_region: Western
+    author_location: Rome
   - author: Cyprian
     title: The Epistles of Cyprian
     start_marker: The Epistles of Cyprian.
+    composition_year: 250
+    composition_uncertainty: low
+    author_region: Western
+    author_location: Carthage
   - author: Cyprian
     title: The Treatises of Cyprian
     start_marker: The Treatises of Cyprian.
+    composition_year: 251
+    composition_uncertainty: low
+    author_region: Western
+    author_location: Carthage
   - author: Cyprian
     title: Treatises Attributed to Cyprian on Questionable Authority
     start_marker: Treatises Attributed to Cyprian on Questionable Authority.
+    composition_year: 255
+    composition_uncertainty: high
+    author_region: Western
+    author_location: Carthage
   - author: Caius
     title: Fragments
     start_marker: Fragments of Caius.
+    composition_year: 210
+    composition_uncertainty: medium
+    author_region: Western
+    author_location: Rome
   - author: Novatian
     title: Treatises
     start_marker: '  Novatian'
+    composition_year: 245
+    composition_uncertainty: medium
+    author_region: Western
+    author_location: Rome
 publication:
   original_language: Greek and Latin (translated to English)
   original_date: c. 170-258 AD

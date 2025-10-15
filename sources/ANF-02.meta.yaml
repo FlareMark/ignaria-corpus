@@ -14,37 +14,81 @@ text_info:
   - author: Hermas
     title: The Pastor of Hermas
     start_marker: '                              The Pastor of Hermas'
+    composition_year: 140
+    composition_uncertainty: medium
+    author_region: Western
+    author_location: Rome
   - author: Tatian
     title: Address to the Greeks
     start_marker: '                         Tatian''s Address to the Greeks'
+    composition_year: 165
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Rome
   - author: Theophilus
     title: Theophilus to Autolycus
     start_marker: Theophilus to Autolycus.
     notes: First occurrence - Book I
+    composition_year: 180
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Antioch
   - author: Athenagoras
     title: Writings of Athenagoras
     start_marker: '                            Writings of Athenagoras'
+    composition_year: 177
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Athens
   - author: Athenagoras
     title: The Treatise of Athenagoras on the Resurrection
     start_marker: The Treatise of Athenagoras
+    composition_year: 180
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Athens
   - author: Clement of Alexandria
     title: Clement of Alexandria - Complete Works
     start_marker: '                             Clement of Alexandria'
+    composition_year: 195
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Alexandria
   - author: Clement of Alexandria
     title: Exhortation to the Heathen
     start_marker: Exhortation to the Heathen
+    composition_year: 190
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Alexandria
   - author: Clement of Alexandria
     title: The Instructor
     start_marker: The Instructor.
+    composition_year: 195
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Alexandria
   - author: Clement of Alexandria
     title: The Stromata, or Miscellanies
     start_marker: The Stromata, or Miscellanies
+    composition_year: 200
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Alexandria
   - author: Clement of Alexandria
     title: Fragments of Clemens Alexandrinus
     start_marker: Fragments of Clemens Alexandrinus.
+    composition_year: 200
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Alexandria
   - author: Clement of Alexandria
     title: Who is the Rich Man that Shall Be Saved?
     start_marker: Who is the Rich Man that Shall Be Saved?
+    composition_year: 200
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Alexandria
 publication:
   original_language: Greek and Latin (translated to English)
   original_date: c. 100-215 AD

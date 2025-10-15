@@ -14,10 +14,18 @@ text_info:
   - author: Lactantius
     title: Lactantius
     start_marker: '                                  Lactantius.'
+    composition_year: 310
+    composition_uncertainty: low
+    author_region: Western
+    author_location: North Africa
   - author: Venantius
     title: Venantius
     start_marker: Venantius
     notes: Poem on Easter
+    composition_year: 300
+    composition_uncertainty: high
+    author_region: Western
+    author_location: Unknown
 publication:
   original_language: Greek and Latin (translated to English)
   original_date: c. 250-330 AD

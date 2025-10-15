@@ -14,12 +14,24 @@ text_info:
     title: Selected Epistles of Gregory the Great
     start_marker: '   Gregory THE GREAT'
     notes: Line 50 - continuation from volume 12
+    composition_year: 595
+    composition_uncertainty: low
+    author_region: Western
+    author_location: Rome
   - author: Ephrem the Syrian
     title: Ephraim Syrus
     start_marker: '   Ephraim Syrus'
+    composition_year: 365
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Edessa
   - author: Aphrahat
     title: Aphrahat
     start_marker: '   Aphrahat.'
+    composition_year: 340
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Persia
 publication:
   original_language: Greek and Latin (translated to English)
   original_date: c. 306-604 AD

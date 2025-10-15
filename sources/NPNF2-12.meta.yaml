@@ -13,9 +13,17 @@ text_info:
     title: The Letters and Sermons of Leo the Great
     start_marker: '   LEO THE GREAT'
     notes: Line 52 - major section marker
+    composition_year: 450
+    composition_uncertainty: low
+    author_region: Western
+    author_location: Rome
   - author: Gregory I
     title: Register of the Epistles of Saint Gregory the Great
     start_marker: '   Register of the Epistles of Saint Gregory the Great.'
+    composition_year: 595
+    composition_uncertainty: low
+    author_region: Western
+    author_location: Rome
 publication:
   original_language: Greek and Latin (translated to English)
   original_date: c. 400-604 AD

@@ -13,12 +13,24 @@ text_info:
   - author: Sulpitius Severus
     title: The Works of Sulpitius Severus
     start_marker: '                        The Works of Sulpitius Severus.'
+    composition_year: 397
+    composition_uncertainty: low
+    author_region: Western
+    author_location: Aquitania
   - author: Vincent of Lerins
     title: The Commonitory
     start_marker: '                                The COMMONITORY'
+    composition_year: 434
+    composition_uncertainty: low
+    author_region: Western
+    author_location: Lerins
   - author: John Cassian
     title: The Works of John Cassian
     start_marker: '                           The Works of John Cassian.'
+    composition_year: 425
+    composition_uncertainty: low
+    author_region: Western
+    author_location: Marseille
 publication:
   original_language: Greek and Latin (translated to English)
   original_date: c. 363-435 AD
