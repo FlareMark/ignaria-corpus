@@ -1,0 +1,499 @@
+text_info:
+  id: bible-lxx
+  title: The Septuagint (LXX) - Greek Old Testament
+  authors:
+  - Various Biblical Authors
+  series: Holy Bible
+  volume: LXX Rahlfs 1935
+  is_anthology: true
+  sections:
+  - author: Moses
+    title: Genesis
+    start_marker: ΓΕΝΕΣΙΣ
+    composition_year: -1400
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Sinai
+    genre: Law
+  - author: Moses
+    title: Exodus
+    start_marker: ΕΞΟΔΟΣ
+    composition_year: -1400
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Sinai
+    genre: Law
+  - author: Moses
+    title: Leviticus
+    start_marker: ΛΕΥΙΤΙΚΟΝ
+    composition_year: -1400
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Sinai
+    genre: Law
+  - author: Moses
+    title: Numbers
+    start_marker: ΑΡΙΘΜΟΙ
+    composition_year: -1400
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Sinai
+    genre: Law
+  - author: Moses
+    title: Deuteronomy
+    start_marker: ΔΕΥΤΕΡΟΝΟΜΙΟΝ
+    composition_year: -1400
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Moab
+    genre: Law
+  - author: Joshua
+    title: Joshua
+    start_marker: ΙΗΣΟΥΣ ΝΑΥΗ
+    composition_year: -1350
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Canaan
+    genre: History
+  - author: Samuel
+    title: Judges
+    start_marker: ΚΡΙΤΑΙ
+    composition_year: -1050
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Israel
+    genre: History
+  - author: Samuel
+    title: Ruth
+    start_marker: ΡΟΥΘ
+    composition_year: -1050
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Israel
+    genre: History
+  - author: Samuel
+    title: 1 Samuel (1 Kingdoms)
+    start_marker: ΒΑΣΙΛΕΙΩΝ Α
+    composition_year: -1000
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Israel
+    genre: History
+  - author: Samuel
+    title: 2 Samuel (2 Kingdoms)
+    start_marker: ΒΑΣΙΛΕΙΩΝ Β
+    composition_year: -950
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Israel
+    genre: History
+  - author: Jeremiah
+    title: 1 Kings (3 Kingdoms)
+    start_marker: ΒΑΣΙΛΕΙΩΝ Γ
+    composition_year: -550
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Jerusalem
+    genre: History
+  - author: Jeremiah
+    title: 2 Kings (4 Kingdoms)
+    start_marker: ΒΑΣΙΛΕΙΩΝ Δ
+    composition_year: -550
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Jerusalem
+    genre: History
+  - author: Ezra
+    title: 1 Chronicles
+    start_marker: ΠΑΡΑΛΕΙΠΟΜΕΝΩΝ Α
+    composition_year: -450
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Jerusalem
+    genre: History
+  - author: Ezra
+    title: 2 Chronicles
+    start_marker: ΠΑΡΑΛΕΙΠΟΜΕΝΩΝ Β
+    composition_year: -450
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Jerusalem
+    genre: History
+  - author: Ezra
+    title: Ezra
+    start_marker: ΕΣΔΡΑΣ Β
+    composition_year: -450
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Jerusalem
+    genre: History
+  - author: Nehemiah
+    title: Nehemiah
+    start_marker: ΝΕΕΜΙΑΣ
+    composition_year: -430
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Jerusalem
+    genre: History
+  - author: Unknown
+    title: 1 Esdras
+    start_marker: ΕΣΔΡΑΣ Α
+    composition_year: -150
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Alexandria
+    genre: History
+    notes: Greek composition, deuterocanonical
+  - author: Unknown
+    title: Tobit
+    start_marker: ΤΩΒΙΤ
+    composition_year: -200
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Eastern Mediterranean
+    genre: History
+    notes: Deuterocanonical
+  - author: Unknown
+    title: Judith
+    start_marker: ΙΟΥΔΙΘ
+    composition_year: -150
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Palestine
+    genre: History
+    notes: Deuterocanonical
+  - author: Mordecai
+    title: Esther
+    start_marker: ΕΣΘΗΡ
+    composition_year: -450
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Persia
+    genre: History
+    notes: LXX includes additions
+  - author: Unknown
+    title: Job
+    start_marker: ΙΩΒ
+    composition_year: -1500
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Unknown
+    genre: Wisdom
+  - author: David & Others
+    title: Psalms
+    start_marker: ΨΑΛΜΟΙ
+    composition_year: -1000
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Jerusalem
+    genre: Wisdom
+  - author: Unknown
+    title: Psalms of Solomon
+    start_marker: ΨΑΛΜΟΙ ΣΟΛΟΜΩΝΤΟΣ
+    composition_year: -50
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Jerusalem
+    genre: Wisdom
+    notes: Deuterocanonical, Pharisaic composition
+  - author: Solomon
+    title: Proverbs
+    start_marker: ΠΑΡΟΙΜΙΑΙ
+    composition_year: -950
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Jerusalem
+    genre: Wisdom
+  - author: Solomon
+    title: Ecclesiastes
+    start_marker: ΕΚΚΛΗΣΙΑΣΤΗΣ
+    composition_year: -935
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Jerusalem
+    genre: Wisdom
+  - author: Solomon
+    title: Song of Solomon
+    start_marker: ΑΣΜΑ ΑΣΜΑΤΩΝ
+    composition_year: -950
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Jerusalem
+    genre: Wisdom
+  - author: Unknown
+    title: Wisdom of Solomon
+    start_marker: ΣΟΦΙΑ ΣΟΛΟΜΩΝΤΟΣ
+    composition_year: -50
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Alexandria
+    genre: Wisdom
+    notes: Deuterocanonical, Greek composition
+  - author: Jesus ben Sirach
+    title: Wisdom of Sirach
+    start_marker: ΣΟΦΙΑ ΣΕΙΡΑΧ
+    composition_year: -180
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Jerusalem
+    genre: Wisdom
+    notes: Deuterocanonical, also known as Ecclesiasticus
+  - author: Isaiah
+    title: Isaiah
+    start_marker: ΗΣΑΙΑΣ
+    composition_year: -700
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Jerusalem
+    genre: Prophecy
+  - author: Jeremiah
+    title: Jeremiah
+    start_marker: ΙΕΡΕΜΙΑΣ
+    composition_year: -600
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Jerusalem
+    genre: Prophecy
+  - author: Jeremiah
+    title: Lamentations
+    start_marker: ΘΡΗΝΟΙ
+    composition_year: -586
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Jerusalem
+    genre: Prophecy
+  - author: Unknown
+    title: Epistle of Jeremiah
+    start_marker: ΕΠΙΣΤΟΛΗ ΙΕΡΕΜΙΟΥ
+    composition_year: -300
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Palestine
+    genre: Prophecy
+    notes: Deuterocanonical
+  - author: Baruch
+    title: Baruch
+    start_marker: ΒΑΡΟΥΧ
+    composition_year: -580
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Babylon
+    genre: Prophecy
+    notes: Deuterocanonical
+  - author: Unknown
+    title: Susanna
+    start_marker: ΣΟΥΣΑΝΝΑ
+    composition_year: -100
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Unknown
+    genre: Prophecy
+    notes: Addition to Daniel, deuterocanonical
+  - author: Ezekiel
+    title: Ezekiel
+    start_marker: ΙΕΖΕΚΙΗΛ
+    composition_year: -580
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Babylon
+    genre: Prophecy
+  - author: Daniel
+    title: Daniel
+    start_marker: ΔΑΝΙΗΛ
+    composition_year: -530
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Babylon
+    genre: Prophecy
+  - author: Unknown
+    title: Bel and the Dragon
+    start_marker: ΒΗΛ ΚΑΙ ΔΡΑΚΩΝ
+    composition_year: -100
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Unknown
+    genre: Prophecy
+    notes: Addition to Daniel, deuterocanonical
+  - author: Hosea
+    title: Hosea
+    start_marker: ΩΣΗΕ
+    composition_year: -750
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Northern Israel
+    genre: Prophecy
+  - author: Joel
+    title: Joel
+    start_marker: ΙΩΗΛ
+    composition_year: -835
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Judah
+    genre: Prophecy
+  - author: Amos
+    title: Amos
+    start_marker: ΑΜΩΣ
+    composition_year: -760
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Tekoa
+    genre: Prophecy
+  - author: Obadiah
+    title: Obadiah
+    start_marker: ΑΒΔΙΟΥ
+    composition_year: -585
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Judah
+    genre: Prophecy
+  - author: Jonah
+    title: Jonah
+    start_marker: ΙΩΝΑΣ
+    composition_year: -780
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Northern Israel
+    genre: Prophecy
+  - author: Micah
+    title: Micah
+    start_marker: ΜΙΧΑΙΑΣ
+    composition_year: -735
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Moresheth
+    genre: Prophecy
+  - author: Nahum
+    title: Nahum
+    start_marker: ΝΑΟΥΜ
+    composition_year: -650
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Judah
+    genre: Prophecy
+  - author: Habakkuk
+    title: Habakkuk
+    start_marker: ΑΜΒΑΚΟΥΜ
+    composition_year: -607
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Judah
+    genre: Prophecy
+  - author: Zephaniah
+    title: Zephaniah
+    start_marker: ΣΟΦΟΝΙΑΣ
+    composition_year: -630
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Judah
+    genre: Prophecy
+  - author: Haggai
+    title: Haggai
+    start_marker: ΑΓΓΑΙΟΣ
+    composition_year: -520
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Jerusalem
+    genre: Prophecy
+  - author: Zechariah
+    title: Zechariah
+    start_marker: ΖΑΧΑΡΙΑΣ
+    composition_year: -520
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Jerusalem
+    genre: Prophecy
+  - author: Malachi
+    title: Malachi
+    start_marker: ΜΑΛΑΧΙΑΣ
+    composition_year: -430
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Jerusalem
+    genre: Prophecy
+  - author: Unknown
+    title: 1 Maccabees
+    start_marker: ΜΑΚΚΑΒΑΙΩΝ Α
+    composition_year: -100
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Palestine
+    genre: History
+    notes: Deuterocanonical, Hasmonean history
+  - author: Jason of Cyrene
+    title: 2 Maccabees
+    start_marker: ΜΑΚΚΑΒΑΙΩΝ Β
+    composition_year: -124
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Alexandria
+    genre: History
+    notes: Deuterocanonical
+  - author: Unknown
+    title: 3 Maccabees
+    start_marker: ΜΑΚΚΑΒΑΙΩΝ Γ
+    composition_year: -100
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Alexandria
+    genre: History
+    notes: Deuterocanonical, about Egyptian Jews
+  - author: Unknown
+    title: 4 Maccabees
+    start_marker: ΜΑΚΚΑΒΑΙΩΝ Δ
+    composition_year: 100
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Alexandria
+    genre: Wisdom
+    notes: Deuterocanonical, philosophical treatise
+  - author: Various
+    title: Odes
+    start_marker: ΩΔΑΙ
+    composition_year: -200
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Alexandria
+    genre: Liturgy
+    notes: Collection of liturgical hymns
+publication:
+  original_language: Koine Greek
+  original_date: c. 250-50 BCE (translation); original texts c. 1500-100 BCE
+  period: Hellenistic Period
+  genre: Sacred Scripture
+  translation_date: c. 250-50 BCE
+  edition: Rahlfs 1935
+  notes: Greek translation of Hebrew Bible produced in Alexandria
+content:
+  description: The Septuagint, the ancient Greek translation of the Hebrew Bible and
+    deuterocanonical books
+  format: Complete Greek Old Testament with 54 books
+  themes:
+  - Torah and Law
+  - History of Israel
+  - Wisdom Literature
+  - Prophetic Revelation
+  - Deuterocanonical Books
+sources:
+  edition: LXX Rahlfs 1935
+  source: Open Scriptures LXX Project
+  source_url: https://github.com/sleeptillseven/LXX-Rahlfs-1935
+  license: Public domain
+  technical_notes: Rahlfs critical edition with morphological tagging
+technical:
+  encoding: UTF-8
+  format: Plain text
+  line_endings: Unix (LF)
+  created: '2025-10-17'
+  last_modified: '2025-10-17'
+cataloging:
+  lxx_id: rahlfs-1935
+  series_info: The Septuagint (LXX)
+  historical_significance: The earliest extant Greek translation of the Hebrew Bible,
+    widely used by early Christians
+notes:
+- The Septuagint includes deuterocanonical books not found in the Hebrew Masoretic
+  Text
+- 'Translation dates vary: Pentateuch c. 250 BCE, other books through c. 50 BCE'
+- Rahlfs 1935 is a critical edition based on Codex Vaticanus, Sinaiticus, and Alexandrinus
+- This edition includes morphological analysis for scholarly study
+- Public domain - freely available for study and research

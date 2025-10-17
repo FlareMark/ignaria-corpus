@@ -7,6 +7,62 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.2.0] - 2025-10-17
+
+### Added - Complete Bible Collection
+- **Septuagint (LXX)** - Greek Old Testament (Rahlfs 1935 edition)
+  - 54 books including deuterocanonical texts
+  - Complete Greek OT with 28,861 verses
+  - Morphological analysis preserved from source
+  - 6.8 MB of Greek biblical text
+- Enhanced Bible coverage now includes:
+  - King James Version (English OT + NT)
+  - SBLGNT (Greek NT)
+  - LXX Septuagint (Greek OT + deuterocanonical)
+- Comprehensive metadata for all 54 LXX books with:
+  - Composition dates and author attribution
+  - Geographic origins
+  - Genre classifications
+  - Notes on deuterocanonical status
+
+### Infrastructure
+- scripts/consolidate-lxx.py: Extract and consolidate LXX from CSV format
+- scripts/generate-lxx-metadata.py: Generate complete metadata for 54 books
+- BIBLE-LXX.txt: Consolidated Greek Old Testament text
+- BIBLE-LXX.meta.yaml: Complete anthology metadata
+
+### Statistics
+- Total texts: 40 (increased from 39)
+- Bible texts: 3 complete volumes (KJV, SBLGNT, LXX)
+- Total biblical books: 147 (66 KJV + 27 SBLGNT + 54 LXX)
+- Greek biblical texts: 81 books (27 NT + 54 OT)
+
+## [2.1.0] - 2025-10-17
+
+### Added - Initial Bible Integration
+- **King James Version (KJV)** - Complete English Bible
+  - 66 books (39 OT + 27 NT)
+  - 31,102 verses from Project Gutenberg
+  - 4.1 MB of biblical text
+- **SBLGNT** - Society of Biblical Literature Greek New Testament
+  - 27 books of Greek NT
+  - 7,957 verses with verse-level precision
+  - 1.7 MB of Greek text
+- Comprehensive metadata for all 93 biblical books with:
+  - Composition dates and author attribution
+  - Geographic origins
+  - Genre classifications
+
+### Infrastructure
+- scripts/consolidate-sblgnt.py: Consolidate 27 separate SBLGNT files
+- scripts/generate-bible-metadata.py: Auto-generate metadata for 93 books
+- Updated manifest.yaml to version 2.1.0 with Bible entries
+- New categories: biblical, old-testament, new-testament, greek-texts
+
+### Statistics
+- Total texts: 39 (increased from 37)
+- Total volume: ~136 MB (increased from ~130 MB)
+
 ## [2.0.0] - 2025-10-12
 
 ### Added - Major Corpus Expansion

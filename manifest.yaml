@@ -1,8 +1,9 @@
 corpus:
   name: Ignaria Corpus
-  version: 2.1.0
+  version: 2.2.0
   description: A curated collection of classical Christian theological texts including
-    the Holy Bible and the complete Early Church Fathers collection
+    the complete Holy Bible (KJV, Greek NT, Greek OT) and the complete Early Church
+    Fathers collection
   last_updated: '2025-10-17'
 texts:
 - id: bible-kjv
@@ -21,6 +22,15 @@ texts:
   genre: Sacred Scripture
   file: sources/BIBLE-SBLGNT.txt
   metadata: sources/BIBLE-SBLGNT.meta.yaml
+  status: active
+  added: '2025-10-17'
+- id: bible-lxx
+  title: The Septuagint (LXX) - Greek Old Testament
+  author: Multiple Biblical Authors
+  period: Hellenistic Period
+  genre: Sacred Scripture
+  file: sources/BIBLE-LXX.txt
+  metadata: sources/BIBLE-LXX.meta.yaml
   status: active
   added: '2025-10-17'
 - id: anf-01
@@ -360,13 +370,16 @@ categories:
   biblical:
   - bible-kjv
   - bible-sblgnt
+  - bible-lxx
   old-testament:
   - bible-kjv
+  - bible-lxx
   new-testament:
   - bible-kjv
   - bible-sblgnt
   greek-texts:
   - bible-sblgnt
+  - bible-lxx
   patristic: []
   scholastic:
   - aquinas-summa
