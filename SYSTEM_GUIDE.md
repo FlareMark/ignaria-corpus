@@ -201,14 +201,21 @@ categories:
 - `author` (string): Author name
 - `file` (string): Path to text file
 - `metadata` (string): Path to metadata file
-- `status` (enum): active | deprecated | pending
+- `status` (enum): active | reference | deprecated | pending
 - `added` (date): Date added to corpus
+
+**Status Values:**
+- `active`: Text should be ingested for semantic search/RAG
+- `reference`: Text available for citation/reference but NOT ingested (e.g., Greek source texts)
+- `deprecated`: Text being phased out
+- `pending`: Text not yet ready for use
 
 **Optional:**
 - `original_author` (string): Original language name
 - `language` (string): Original language
 - `period` (string): Historical period
 - `genre` (string): Text genre/type
+- `notes` (string): Special handling instructions
 
 ---
 
@@ -291,6 +298,35 @@ text_info:
 - Regional comparisons ("Where do Eastern and Western fathers disagree?")
 - Temporal development tracking ("How did this doctrine evolve from 100-400 AD?")
 - Multi-source corroboration with temporal awareness
+
+### Biblical Texts - Reference Status
+
+The corpus includes three Bible versions with different ingestion strategies:
+
+**For Ingestion (status: active):**
+- `bible-kjv` - King James Version (English)
+  - **Ingest this for semantic search**
+  - Primary biblical text for English queries
+  - 66 books (OT + NT)
+
+**For Reference Only (status: reference):**
+- `bible-sblgnt` - Greek New Testament
+  - Do NOT ingest for semantic search
+  - Keep for scholarly citation and verification
+  - Used when Church Fathers quote Greek NT
+
+- `bible-lxx` - Greek Old Testament (Septuagint)
+  - Do NOT ingest for semantic search
+  - Keep for scholarly citation and verification
+  - Used when Church Fathers quote Greek OT (LXX)
+
+**Rationale:** Greek texts won't match English queries in semantic search. They're preserved in the corpus for:
+1. Verifying quotations in patristic texts (fathers quote LXX, not Hebrew)
+2. Scholarly cross-referencing
+3. Future multilingual capabilities
+4. Textual accuracy for disputed passages
+
+**Implementation:** Your ingestion pipeline should filter by `status == 'active'` to exclude reference texts.
 
 ---
 

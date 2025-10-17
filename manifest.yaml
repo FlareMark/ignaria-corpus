@@ -22,8 +22,9 @@ texts:
   genre: Sacred Scripture
   file: sources/BIBLE-SBLGNT.txt
   metadata: sources/BIBLE-SBLGNT.meta.yaml
-  status: active
+  status: reference
   added: '2025-10-17'
+  notes: Greek source text for scholarly reference; not ingested for semantic search
 - id: bible-lxx
   title: The Septuagint (LXX) - Greek Old Testament
   author: Multiple Biblical Authors
@@ -31,8 +32,9 @@ texts:
   genre: Sacred Scripture
   file: sources/BIBLE-LXX.txt
   metadata: sources/BIBLE-LXX.meta.yaml
-  status: active
+  status: reference
   added: '2025-10-17'
+  notes: Greek source text for scholarly reference; not ingested for semantic search
 - id: anf-01
   title: Ante-Nicene Fathers, Vol. 1
   author: Various Early Church Fathers

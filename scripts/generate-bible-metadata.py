@@ -94,7 +94,7 @@ KJV_BOOKS = [
     {"file_marker": "The Epistle of Paul the Apostle to the Hebrews", "author": "Unknown", "title": "Hebrews", "year": 68, "uncertainty": "medium", "location": "Unknown", "testament": "NT", "genre": "Epistle"},
     {"file_marker": "The General Epistle of James", "author": "James", "title": "James", "year": 48, "uncertainty": "medium", "location": "Jerusalem", "testament": "NT", "genre": "Epistle"},
     {"file_marker": "The First Epistle General of Peter", "author": "Peter", "title": "1 Peter", "year": 64, "uncertainty": "medium", "location": "Rome", "testament": "NT", "genre": "Epistle"},
-    {"file_marker": "The Second Epistle General of Peter", "author": "Peter", "title": "2 Peter", "year": 66, "uncertainty": "medium", "location": "Rome", "testament": "NT", "genre": "Epistle"},
+    {"file_marker": "The Second General Epistle of Peter", "author": "Peter", "title": "2 Peter", "year": 66, "uncertainty": "medium", "location": "Rome", "testament": "NT", "genre": "Epistle"},
     {"file_marker": "The First Epistle General of John", "author": "John", "title": "1 John", "year": 90, "uncertainty": "low", "location": "Ephesus", "testament": "NT", "genre": "Epistle"},
     {"file_marker": "The Second Epistle General of John", "author": "John", "title": "2 John", "year": 90, "uncertainty": "low", "location": "Ephesus", "testament": "NT", "genre": "Epistle"},
     {"file_marker": "The Third Epistle General of John", "author": "John", "title": "3 John", "year": 90, "uncertainty": "low", "location": "Ephesus", "testament": "NT", "genre": "Epistle"},

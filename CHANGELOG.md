@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- **Greek Bible texts marked as reference-only**
+  - `bible-sblgnt` status: active → reference
+  - `bible-lxx` status: active → reference
+  - Rationale: Greek texts won't match English semantic search queries
+  - KJV remains active for primary biblical ingestion
+  - Greek texts preserved for scholarly citation and verification
+
+### Documentation
+- Updated SYSTEM_GUIDE.md with reference status explanation
+- Added Biblical Texts - Reference Status section
+- Clarified status field values (active/reference/deprecated/pending)
+- Documented ingestion filtering strategy
+
 ## [2.2.0] - 2025-10-17
 
 ### Added - Complete Bible Collection

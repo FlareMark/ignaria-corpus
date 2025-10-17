@@ -549,7 +549,7 @@ text_info:
     genre: Epistle
   - author: Peter
     title: 2 Peter
-    start_marker: The Second Epistle General of Peter
+    start_marker: The Second General Epistle of Peter
     composition_year: 66
     composition_uncertainty: medium
     author_region: Eastern
