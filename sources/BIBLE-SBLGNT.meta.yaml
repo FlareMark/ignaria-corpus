@@ -1,0 +1,282 @@
+text_info:
+  id: bible-sblgnt
+  title: The Greek New Testament - SBL Greek New Testament
+  authors:
+  - Multiple Biblical Authors
+  series: Biblical Texts
+  volume: SBLGNT
+  is_anthology: true
+  sections:
+  - author: Matthew
+    title: Matthew
+    start_marker: ΚΑΤΑ ΜΑΘΘΑΙΟΝ
+    composition_year: 70
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Palestine
+    testament: NT
+    original_language: Greek
+  - author: Mark
+    title: Mark
+    start_marker: ΚΑΤΑ ΜΑΡΚΟΝ
+    composition_year: 68
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Rome
+    testament: NT
+    original_language: Greek
+  - author: Luke
+    title: Luke
+    start_marker: ΚΑΤΑ ΛΟΥΚΑΝ
+    composition_year: 62
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Rome
+    testament: NT
+    original_language: Greek
+  - author: John
+    title: John
+    start_marker: ΚΑΤΑ ΙΩΑΝΝΗΝ
+    composition_year: 90
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Ephesus
+    testament: NT
+    original_language: Greek
+  - author: Luke
+    title: Acts
+    start_marker: ΠΡΑΞΕΙΣ ΑΠΟΣΤΟΛΩΝ
+    composition_year: 62
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Rome
+    testament: NT
+    original_language: Greek
+  - author: Paul
+    title: Romans
+    start_marker: ΠΡΟΣ ΡΩΜΑΙΟΥΣ
+    composition_year: 57
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Corinth
+    testament: NT
+    original_language: Greek
+  - author: Paul
+    title: 1 Corinthians
+    start_marker: ΠΡΟΣ ΚΟΡΙΝΘΙΟΥΣ Α
+    composition_year: 55
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Ephesus
+    testament: NT
+    original_language: Greek
+  - author: Paul
+    title: 2 Corinthians
+    start_marker: ΠΡΟΣ ΚΟΡΙΝΘΙΟΥΣ Β
+    composition_year: 56
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Macedonia
+    testament: NT
+    original_language: Greek
+  - author: Paul
+    title: Galatians
+    start_marker: ΠΡΟΣ ΓΑΛΑΤΑΣ
+    composition_year: 49
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Antioch
+    testament: NT
+    original_language: Greek
+  - author: Paul
+    title: Ephesians
+    start_marker: ΠΡΟΣ ΕΦΕΣΙΟΥΣ
+    composition_year: 60
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Rome
+    testament: NT
+    original_language: Greek
+  - author: Paul
+    title: Philippians
+    start_marker: ΠΡΟΣ ΦΙΛΙΠΠΗΣΙΟΥΣ
+    composition_year: 62
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Rome
+    testament: NT
+    original_language: Greek
+  - author: Paul
+    title: Colossians
+    start_marker: ΠΡΟΣ ΚΟΛΟΣΣΑΕΙΣ
+    composition_year: 60
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Rome
+    testament: NT
+    original_language: Greek
+  - author: Paul
+    title: 1 Thessalonians
+    start_marker: ΠΡΟΣ ΘΕΣΣΑΛΟΝΙΚΕΙΣ Α
+    composition_year: 51
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Corinth
+    testament: NT
+    original_language: Greek
+  - author: Paul
+    title: 2 Thessalonians
+    start_marker: ΠΡΟΣ ΘΕΣΣΑΛΟΝΙΚΕΙΣ Β
+    composition_year: 51
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Corinth
+    testament: NT
+    original_language: Greek
+  - author: Paul
+    title: 1 Timothy
+    start_marker: ΠΡΟΣ ΤΙΜΟΘΕΟΝ Α
+    composition_year: 64
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Macedonia
+    testament: NT
+    original_language: Greek
+  - author: Paul
+    title: 2 Timothy
+    start_marker: ΠΡΟΣ ΤΙΜΟΘΕΟΝ Β
+    composition_year: 67
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Rome
+    testament: NT
+    original_language: Greek
+  - author: Paul
+    title: Titus
+    start_marker: ΠΡΟΣ ΤΙΤΟΝ
+    composition_year: 64
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Macedonia
+    testament: NT
+    original_language: Greek
+  - author: Paul
+    title: Philemon
+    start_marker: ΠΡΟΣ ΦΙΛΗΜΟΝΑ
+    composition_year: 60
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Rome
+    testament: NT
+    original_language: Greek
+  - author: Unknown
+    title: Hebrews
+    start_marker: ΠΡΟΣ ΕΒΡΑΙΟΥΣ
+    composition_year: 68
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Unknown
+    testament: NT
+    original_language: Greek
+  - author: James
+    title: James
+    start_marker: ΙΑΚΩΒΟΥ
+    composition_year: 48
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Jerusalem
+    testament: NT
+    original_language: Greek
+  - author: Peter
+    title: 1 Peter
+    start_marker: ΠΕΤΡΟΥ Α
+    composition_year: 64
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Rome
+    testament: NT
+    original_language: Greek
+  - author: Peter
+    title: 2 Peter
+    start_marker: ΠΕΤΡΟΥ Β
+    composition_year: 66
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Rome
+    testament: NT
+    original_language: Greek
+  - author: John
+    title: 1 John
+    start_marker: ΙΩΑΝΝΟΥ Α
+    composition_year: 90
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Ephesus
+    testament: NT
+    original_language: Greek
+  - author: John
+    title: 2 John
+    start_marker: ΙΩΑΝΝΟΥ Β
+    composition_year: 90
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Ephesus
+    testament: NT
+    original_language: Greek
+  - author: John
+    title: 3 John
+    start_marker: ΙΩΑΝΝΟΥ Γ
+    composition_year: 90
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Ephesus
+    testament: NT
+    original_language: Greek
+  - author: Jude
+    title: Jude
+    start_marker: ΙΟΥΔΑ
+    composition_year: 70
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Unknown
+    testament: NT
+    original_language: Greek
+  - author: John
+    title: Revelation
+    start_marker: ΑΠΟΚΑΛΥΨΙΣ ΙΩΑΝΝΟΥ
+    composition_year: 95
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Patmos
+    testament: NT
+    original_language: Greek
+publication:
+  original_language: Koine Greek
+  original_date: 48-95 AD
+  period: First Century Christianity
+  genre: Sacred Scripture
+  editors:
+  - Michael W. Holmes
+  publication_date: '2010'
+content:
+  description: Critical edition of the Greek New Testament
+  format: Greek text with modern punctuation
+  themes:
+  - Gospel
+  - Apostolic Teaching
+  - Early Church
+sources:
+  edition: SBL Greek New Testament (SBLGNT)
+  source: Society of Biblical Literature
+  source_url: https://github.com/LogosBible/SBLGNT
+  license: CC BY 4.0
+technical:
+  encoding: UTF-8
+  format: Plain text
+  line_endings: Unix (LF)
+  created: '2025-10-17'
+cataloging:
+  canonical_order: true
+  protestant_canon: true
+  num_books: 27
+  testament: New Testament

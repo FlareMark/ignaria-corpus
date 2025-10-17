@@ -1,0 +1,636 @@
+text_info:
+  id: bible-kjv
+  title: The Holy Bible - King James Version
+  authors:
+  - Multiple Biblical Authors
+  series: Biblical Texts
+  volume: KJV
+  is_anthology: true
+  sections:
+  - author: Moses
+    title: Genesis
+    start_marker: 'The First Book of Moses: Called Genesis'
+    composition_year: -1400
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Sinai
+    testament: OT
+    genre: Law
+  - author: Moses
+    title: Exodus
+    start_marker: 'The Second Book of Moses: Called Exodus'
+    composition_year: -1400
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Sinai
+    testament: OT
+    genre: Law
+  - author: Moses
+    title: Leviticus
+    start_marker: 'The Third Book of Moses: Called Leviticus'
+    composition_year: -1400
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Sinai
+    testament: OT
+    genre: Law
+  - author: Moses
+    title: Numbers
+    start_marker: 'The Fourth Book of Moses: Called Numbers'
+    composition_year: -1400
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Sinai
+    testament: OT
+    genre: Law
+  - author: Moses
+    title: Deuteronomy
+    start_marker: 'The Fifth Book of Moses: Called Deuteronomy'
+    composition_year: -1400
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Moab
+    testament: OT
+    genre: Law
+  - author: Joshua
+    title: Joshua
+    start_marker: The Book of Joshua
+    composition_year: -1350
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Canaan
+    testament: OT
+    genre: History
+  - author: Samuel
+    title: Judges
+    start_marker: The Book of Judges
+    composition_year: -1050
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Israel
+    testament: OT
+    genre: History
+  - author: Samuel
+    title: Ruth
+    start_marker: The Book of Ruth
+    composition_year: -1050
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Israel
+    testament: OT
+    genre: History
+  - author: Samuel
+    title: 1 Samuel
+    start_marker: The First Book of Samuel
+    composition_year: -1000
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Israel
+    testament: OT
+    genre: History
+  - author: Samuel
+    title: 2 Samuel
+    start_marker: The Second Book of Samuel
+    composition_year: -950
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Israel
+    testament: OT
+    genre: History
+  - author: Jeremiah
+    title: 1 Kings
+    start_marker: The First Book of the Kings
+    composition_year: -550
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Jerusalem
+    testament: OT
+    genre: History
+  - author: Jeremiah
+    title: 2 Kings
+    start_marker: The Second Book of the Kings
+    composition_year: -550
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Jerusalem
+    testament: OT
+    genre: History
+  - author: Ezra
+    title: 1 Chronicles
+    start_marker: The First Book of the Chronicles
+    composition_year: -450
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Jerusalem
+    testament: OT
+    genre: History
+  - author: Ezra
+    title: 2 Chronicles
+    start_marker: The Second Book of the Chronicles
+    composition_year: -450
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Jerusalem
+    testament: OT
+    genre: History
+  - author: Ezra
+    title: Ezra
+    start_marker: Ezra
+    composition_year: -450
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Jerusalem
+    testament: OT
+    genre: History
+  - author: Nehemiah
+    title: Nehemiah
+    start_marker: The Book of Nehemiah
+    composition_year: -430
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Jerusalem
+    testament: OT
+    genre: History
+  - author: Mordecai
+    title: Esther
+    start_marker: The Book of Esther
+    composition_year: -450
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Persia
+    testament: OT
+    genre: History
+  - author: Unknown
+    title: Job
+    start_marker: The Book of Job
+    composition_year: -1500
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Unknown
+    testament: OT
+    genre: Wisdom
+  - author: David & Others
+    title: Psalms
+    start_marker: The Book of Psalms
+    composition_year: -1000
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Jerusalem
+    testament: OT
+    genre: Wisdom
+  - author: Solomon
+    title: Proverbs
+    start_marker: The Proverbs
+    composition_year: -950
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Jerusalem
+    testament: OT
+    genre: Wisdom
+  - author: Solomon
+    title: Ecclesiastes
+    start_marker: Ecclesiastes
+    composition_year: -935
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Jerusalem
+    testament: OT
+    genre: Wisdom
+  - author: Solomon
+    title: Song of Solomon
+    start_marker: The Song of Solomon
+    composition_year: -950
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Jerusalem
+    testament: OT
+    genre: Wisdom
+  - author: Isaiah
+    title: Isaiah
+    start_marker: The Book of the Prophet Isaiah
+    composition_year: -700
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Jerusalem
+    testament: OT
+    genre: Prophecy
+  - author: Jeremiah
+    title: Jeremiah
+    start_marker: The Book of the Prophet Jeremiah
+    composition_year: -600
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Jerusalem
+    testament: OT
+    genre: Prophecy
+  - author: Jeremiah
+    title: Lamentations
+    start_marker: The Lamentations of Jeremiah
+    composition_year: -586
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Jerusalem
+    testament: OT
+    genre: Prophecy
+  - author: Ezekiel
+    title: Ezekiel
+    start_marker: The Book of the Prophet Ezekiel
+    composition_year: -580
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Babylon
+    testament: OT
+    genre: Prophecy
+  - author: Daniel
+    title: Daniel
+    start_marker: The Book of Daniel
+    composition_year: -530
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Babylon
+    testament: OT
+    genre: Prophecy
+  - author: Hosea
+    title: Hosea
+    start_marker: Hosea
+    composition_year: -750
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Israel
+    testament: OT
+    genre: Prophecy
+  - author: Joel
+    title: Joel
+    start_marker: Joel
+    composition_year: -830
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Judah
+    testament: OT
+    genre: Prophecy
+  - author: Amos
+    title: Amos
+    start_marker: Amos
+    composition_year: -760
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Israel
+    testament: OT
+    genre: Prophecy
+  - author: Obadiah
+    title: Obadiah
+    start_marker: Obadiah
+    composition_year: -840
+    composition_uncertainty: high
+    author_region: Eastern
+    author_location: Judah
+    testament: OT
+    genre: Prophecy
+  - author: Jonah
+    title: Jonah
+    start_marker: Jonah
+    composition_year: -760
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Israel
+    testament: OT
+    genre: Prophecy
+  - author: Micah
+    title: Micah
+    start_marker: Micah
+    composition_year: -700
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Judah
+    testament: OT
+    genre: Prophecy
+  - author: Nahum
+    title: Nahum
+    start_marker: Nahum
+    composition_year: -650
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Judah
+    testament: OT
+    genre: Prophecy
+  - author: Habakkuk
+    title: Habakkuk
+    start_marker: Habakkuk
+    composition_year: -607
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Judah
+    testament: OT
+    genre: Prophecy
+  - author: Zephaniah
+    title: Zephaniah
+    start_marker: Zephaniah
+    composition_year: -630
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Judah
+    testament: OT
+    genre: Prophecy
+  - author: Haggai
+    title: Haggai
+    start_marker: Haggai
+    composition_year: -520
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Jerusalem
+    testament: OT
+    genre: Prophecy
+  - author: Zechariah
+    title: Zechariah
+    start_marker: Zechariah
+    composition_year: -520
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Jerusalem
+    testament: OT
+    genre: Prophecy
+  - author: Malachi
+    title: Malachi
+    start_marker: Malachi
+    composition_year: -430
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Jerusalem
+    testament: OT
+    genre: Prophecy
+  - author: Matthew
+    title: Matthew
+    start_marker: The Gospel According to Saint Matthew
+    composition_year: 70
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Palestine
+    testament: NT
+    genre: Gospel
+  - author: Mark
+    title: Mark
+    start_marker: The Gospel According to Saint Mark
+    composition_year: 68
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Rome
+    testament: NT
+    genre: Gospel
+  - author: Luke
+    title: Luke
+    start_marker: The Gospel According to Saint Luke
+    composition_year: 62
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Rome
+    testament: NT
+    genre: Gospel
+  - author: John
+    title: John
+    start_marker: The Gospel According to Saint John
+    composition_year: 90
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Ephesus
+    testament: NT
+    genre: Gospel
+  - author: Luke
+    title: Acts
+    start_marker: The Acts of the Apostles
+    composition_year: 62
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Rome
+    testament: NT
+    genre: History
+  - author: Paul
+    title: Romans
+    start_marker: The Epistle of Paul the Apostle to the Romans
+    composition_year: 57
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Corinth
+    testament: NT
+    genre: Epistle
+  - author: Paul
+    title: 1 Corinthians
+    start_marker: The First Epistle of Paul the Apostle to the Corinthians
+    composition_year: 55
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Ephesus
+    testament: NT
+    genre: Epistle
+  - author: Paul
+    title: 2 Corinthians
+    start_marker: The Second Epistle of Paul the Apostle to the Corinthians
+    composition_year: 56
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Macedonia
+    testament: NT
+    genre: Epistle
+  - author: Paul
+    title: Galatians
+    start_marker: The Epistle of Paul the Apostle to the Galatians
+    composition_year: 49
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Antioch
+    testament: NT
+    genre: Epistle
+  - author: Paul
+    title: Ephesians
+    start_marker: The Epistle of Paul the Apostle to the Ephesians
+    composition_year: 60
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Rome
+    testament: NT
+    genre: Epistle
+  - author: Paul
+    title: Philippians
+    start_marker: The Epistle of Paul the Apostle to the Philippians
+    composition_year: 62
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Rome
+    testament: NT
+    genre: Epistle
+  - author: Paul
+    title: Colossians
+    start_marker: The Epistle of Paul the Apostle to the Colossians
+    composition_year: 60
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Rome
+    testament: NT
+    genre: Epistle
+  - author: Paul
+    title: 1 Thessalonians
+    start_marker: The First Epistle of Paul the Apostle to the Thessalonians
+    composition_year: 51
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Corinth
+    testament: NT
+    genre: Epistle
+  - author: Paul
+    title: 2 Thessalonians
+    start_marker: The Second Epistle of Paul the Apostle to the Thessalonians
+    composition_year: 51
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Corinth
+    testament: NT
+    genre: Epistle
+  - author: Paul
+    title: 1 Timothy
+    start_marker: The First Epistle of Paul the Apostle to Timothy
+    composition_year: 64
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Macedonia
+    testament: NT
+    genre: Epistle
+  - author: Paul
+    title: 2 Timothy
+    start_marker: The Second Epistle of Paul the Apostle to Timothy
+    composition_year: 67
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Rome
+    testament: NT
+    genre: Epistle
+  - author: Paul
+    title: Titus
+    start_marker: The Epistle of Paul the Apostle to Titus
+    composition_year: 64
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Macedonia
+    testament: NT
+    genre: Epistle
+  - author: Paul
+    title: Philemon
+    start_marker: The Epistle of Paul the Apostle to Philemon
+    composition_year: 60
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Rome
+    testament: NT
+    genre: Epistle
+  - author: Unknown
+    title: Hebrews
+    start_marker: The Epistle of Paul the Apostle to the Hebrews
+    composition_year: 68
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Unknown
+    testament: NT
+    genre: Epistle
+  - author: James
+    title: James
+    start_marker: The General Epistle of James
+    composition_year: 48
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Jerusalem
+    testament: NT
+    genre: Epistle
+  - author: Peter
+    title: 1 Peter
+    start_marker: The First Epistle General of Peter
+    composition_year: 64
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Rome
+    testament: NT
+    genre: Epistle
+  - author: Peter
+    title: 2 Peter
+    start_marker: The Second Epistle General of Peter
+    composition_year: 66
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Rome
+    testament: NT
+    genre: Epistle
+  - author: John
+    title: 1 John
+    start_marker: The First Epistle General of John
+    composition_year: 90
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Ephesus
+    testament: NT
+    genre: Epistle
+  - author: John
+    title: 2 John
+    start_marker: The Second Epistle General of John
+    composition_year: 90
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Ephesus
+    testament: NT
+    genre: Epistle
+  - author: John
+    title: 3 John
+    start_marker: The Third Epistle General of John
+    composition_year: 90
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Ephesus
+    testament: NT
+    genre: Epistle
+  - author: Jude
+    title: Jude
+    start_marker: The General Epistle of Jude
+    composition_year: 70
+    composition_uncertainty: medium
+    author_region: Eastern
+    author_location: Unknown
+    testament: NT
+    genre: Epistle
+  - author: John
+    title: Revelation
+    start_marker: The Revelation of Saint John the Divine
+    composition_year: 95
+    composition_uncertainty: low
+    author_region: Eastern
+    author_location: Patmos
+    testament: NT
+    genre: Apocalyptic
+publication:
+  original_language: Hebrew, Aramaic, Greek (translated to English)
+  original_date: c. 1400 BC - 95 AD
+  period: Biblical Era
+  genre: Sacred Scripture
+  translation: King James Version
+  translation_date: '1611'
+  translators:
+  - 47 scholars commissioned by King James I
+content:
+  description: Complete Protestant canon in King James English
+  format: Full biblical text with original versification
+  themes:
+  - Revelation
+  - Covenant
+  - Redemption
+  - Law and Grace
+sources:
+  edition: King James Version (KJV)
+  source: Project Gutenberg
+  source_url: https://www.gutenberg.org/ebooks/10
+  license: Public Domain
+technical:
+  encoding: UTF-8
+  format: Plain text
+  line_endings: Unix (LF)
+  created: '2025-10-17'
+cataloging:
+  canonical_order: true
+  protestant_canon: true
+  num_books: 66
+  old_testament_books: 39
+  new_testament_books: 27

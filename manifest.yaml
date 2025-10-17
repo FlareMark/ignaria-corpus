@@ -1,10 +1,28 @@
 corpus:
   name: Ignaria Corpus
-  version: 2.0.0
+  version: 2.1.0
   description: A curated collection of classical Christian theological texts including
-    the complete Early Church Fathers collection
-  last_updated: '2025-10-12'
+    the Holy Bible and the complete Early Church Fathers collection
+  last_updated: '2025-10-17'
 texts:
+- id: bible-kjv
+  title: The Holy Bible - King James Version
+  author: Multiple Biblical Authors
+  period: Biblical Era
+  genre: Sacred Scripture
+  file: sources/BIBLE-KJV.txt
+  metadata: sources/BIBLE-KJV.meta.yaml
+  status: active
+  added: '2025-10-17'
+- id: bible-sblgnt
+  title: The Greek New Testament - SBLGNT
+  author: Multiple Biblical Authors
+  period: First Century Christianity
+  genre: Sacred Scripture
+  file: sources/BIBLE-SBLGNT.txt
+  metadata: sources/BIBLE-SBLGNT.meta.yaml
+  status: active
+  added: '2025-10-17'
 - id: anf-01
   title: Ante-Nicene Fathers, Vol. 1
   author: Various Early Church Fathers
@@ -339,6 +357,16 @@ texts:
   status: active
   added: '2025-10-12'
 categories:
+  biblical:
+  - bible-kjv
+  - bible-sblgnt
+  old-testament:
+  - bible-kjv
+  new-testament:
+  - bible-kjv
+  - bible-sblgnt
+  greek-texts:
+  - bible-sblgnt
   patristic: []
   scholastic:
   - aquinas-summa
