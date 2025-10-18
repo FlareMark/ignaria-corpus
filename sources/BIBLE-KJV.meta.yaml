@@ -81,7 +81,10 @@ text_info:
     genre: History
   - author: Samuel
     title: 1 Samuel
-    start_marker: The First Book of Samuel
+    start_marker: |
+      The First Book of Samuel
+
+      Otherwise Called:
     composition_year: -1000
     composition_uncertainty: high
     author_region: Eastern
@@ -90,7 +93,10 @@ text_info:
     genre: History
   - author: Samuel
     title: 2 Samuel
-    start_marker: The Second Book of Samuel
+    start_marker: |
+      The Second Book of Samuel
+
+      Otherwise Called:
     composition_year: -950
     composition_uncertainty: high
     author_region: Eastern
@@ -99,7 +105,10 @@ text_info:
     genre: History
   - author: Jeremiah
     title: 1 Kings
-    start_marker: The First Book of the Kings
+    start_marker: |
+      The First Book of the Kings
+
+      Commonly Called:
     composition_year: -550
     composition_uncertainty: high
     author_region: Eastern
@@ -108,7 +117,10 @@ text_info:
     genre: History
   - author: Jeremiah
     title: 2 Kings
-    start_marker: The Second Book of the Kings
+    start_marker: |
+      The Second Book of the Kings
+
+      Commonly Called:
     composition_year: -550
     composition_uncertainty: high
     author_region: Eastern
